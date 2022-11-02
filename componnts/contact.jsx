@@ -19,12 +19,10 @@ const Contact = () => {
       </div>
       <div className="icons">
         <span>
-          <Link
-            href="https://twitter.com/legalprogrammer"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image src={twIcon} alt="dolu" width={27} height={27} />
+          <Link href="https://twitter.com/legalprogrammer">
+            <a target="_blank" rel="noopener noreferrer">
+              <Image src={twIcon} alt="dolu" width={27} height={27} />
+            </a>
           </Link>
         </span>
 

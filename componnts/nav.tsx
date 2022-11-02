@@ -9,8 +9,10 @@ const NavBar = () => {
     <>
       <Navbar id="navbar" expand="lg">
         <Container fluid id="navbar">
-          <Navbar.Brand href="/">
-            <h4 className="navbar logo">StackCiti</h4>
+          <Navbar.Brand>
+            <Link href="/">
+              <h4 className="navbar logo">StackCiti</h4>
+            </Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
@@ -20,21 +22,35 @@ const NavBar = () => {
               navbarScroll
               id="nav-right"
             >
-              <Nav.Link href="/" className="navbar mx-4">
-                Home
-              </Nav.Link>
-              <Nav.Link href="/about" className="navbar mx-4">
-                About
-              </Nav.Link>
-              <Nav.Link href="/pricing" className="navbar mx-4">
-                Price guide
-              </Nav.Link>
-              <Nav.Link href="/works" className="navbar mx-4">
-                latest works
-              </Nav.Link>
-              <Nav.Link href="/contact" className="navbar mx-4">
-                Contact
-              </Nav.Link>
+              <Link href="/" id="links">
+                <span
+                  id="hover-nav"
+                  className="nav-link mx-4 mx-4"
+                  style={{ cursor: "pointer" }}
+                >
+                  Home
+                </span>
+              </Link>
+              <Link href="/about">
+                <span id="hover-nav" className="nav-link mx-4">
+                  About
+                </span>
+              </Link>
+              <Link href="/pricing">
+                <span id="hover-nav" className="nav-link mx-4">
+                  Price guide
+                </span>
+              </Link>
+              <Link href="/works">
+                <span id="hover-nav" className="nav-link mx-4">
+                  Latest works
+                </span>
+              </Link>
+              <Link href="/contact">
+                <span id="hover-nav" className="nav-link mx-4">
+                  Contact
+                </span>
+              </Link>
             </Nav>
             <div className="btn-container">
               <Link href="/contact">

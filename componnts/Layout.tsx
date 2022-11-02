@@ -1,8 +1,9 @@
 import Footer from "./footer";
 import NavBar from "./nav";
+import Mobile from "./navmobile";
 
 interface Layoutprops {
-  children: React.ReactNode
+  children: React.ReactNode;
 }
 
 const Layout = ({ children }: Layoutprops) => {
@@ -10,6 +11,7 @@ const Layout = ({ children }: Layoutprops) => {
     <>
       <div>
         <NavBar />
+        <Mobile />
         {children}
         <Footer />
       </div>

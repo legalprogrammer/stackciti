@@ -18,7 +18,7 @@ const Works = () => {
           <Col className="thumb"sm>
             <div>
               <div className="img-center">
-                <Image src={akeredolu} alt="dolu" width={300} height={400} />
+                <Image src={akeredolu} alt="akeredolu" width={300} height={400} />
               </div>
               <div>
                 <div className="text-bg">
@@ -46,7 +46,7 @@ const Works = () => {
           <Col className="thumb" sm>
             <div>
               <div className="img-center">
-                <Image src={roche} alt="roche" width={300} height={400} />
+                <Image src={roche} alt="roche-wears" width={300} height={400} />
               </div>
               <div>
                 <div className="text-bg">
