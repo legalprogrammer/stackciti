@@ -6,10 +6,10 @@ import about2 from "../public/craft.svg";
 import about3 from "../public/eager.svg";
 import about5 from "../public/joy.svg";
 import about4 from "../public/excel.svg";
-import femaleavatar from "../public/female.svg";
-import maleavatar from "../public/male.svg";
-import Testimonials from "../componnts/testimonials";
-import Contact from "../componnts/contact";
+// import femaleavatar from "../public/female.svg";
+// import maleavatar from "../public/male.svg";
+import Testimonials from "../components/testimonials";
+import Contact from "../components/contact";
 const About = () => {
   return (
     <>
@@ -45,7 +45,7 @@ const About = () => {
         <br />
         <br />
         <Container className="containers">
-          <Image src={about1} alt="image" width={2000} height={1300} />
+          <Image src={about1} className="about-img" alt="image" width={2000} height={1300} />
         </Container>
         <Container id="values" className="containers">
           <h2>CORE VALUES</h2>

@@ -1,10 +1,10 @@
 import Head from "next/head";
-import Hero from "../componnts/hero";
-import HeroTwo from "../componnts/herotwo";
-import Process from "../componnts/process";
-import Works from "../componnts/work";
-import Testimonials from "../componnts/testimonials";
-import Contact from "../componnts/contact";
+import Hero from "../components/hero";
+import HeroTwo from "../components/herotwo";
+import Process from "../components/process";
+import Works from "../components/work";
+import Testimonials from "../components/testimonials";
+import Contact from "../components/contact";
 
 const Home = () => {
   return (

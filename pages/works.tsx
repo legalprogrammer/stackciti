@@ -1,4 +1,8 @@
 import Head from "next/head";
+import Image from "next/image";
+import { Col, Container, Row } from "react-bootstrap";
+import vector3 from "../public/vector3.png";
+import Workhumbnails from "../components/data/workthumbnails";
 
 const works = () => {
   return (
@@ -8,7 +12,32 @@ const works = () => {
         <meta name="description" content="best website agency in Nigeria" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h3>works</h3>
+      <div className="work-container">
+        <Container>
+          <Row>
+            <Col>
+              <div className="img-text">
+                <span>works</span>
+                <h3>Our works</h3>
+              </div>
+            </Col>
+            <Col>
+              <div className="img-container">
+                <Image
+                  src={vector3}
+                  alt="img"
+                  className="vector"
+                  width={400}
+                  height={480}
+                />
+              </div>
+            </Col>
+          </Row>
+        </Container>
+        <Container id="works">
+          <Workhumbnails />
+        </Container>
+      </div>
     </>
   );
 };

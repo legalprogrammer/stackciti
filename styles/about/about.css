@@ -59,7 +59,7 @@
 #about-section #values .col {
   margin-top: 20px;
 }
-#about-section img {
+#about-section .about-img {
   opacity: 0.6;
 }
 
@@ -103,7 +103,6 @@
     margin-top: 20px;
   }
   #about-section img {
-    opacity: 1;
     margin-top: -20px;
     margin: auto 25px;
   }
