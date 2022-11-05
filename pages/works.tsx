@@ -3,8 +3,16 @@ import Image from "next/image";
 import { Col, Container, Row } from "react-bootstrap";
 import vector3 from "../public/vector3.png";
 import Workhumbnails from "../components/data/workthumbnails";
+import Aos from "aos";
+import React from "react";
+import "aos/dist/aos.css";
 
-const works = () => {
+const Works = () => {
+
+  React.useEffect(() => {
+    Aos.init({ duration: 750 });
+  }, []);
+  
   return (
     <>
       <Head>
@@ -12,7 +20,7 @@ const works = () => {
         <meta name="description" content="best website agency in Nigeria" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="work-container">
+      <div className="work-container" data-aos="fade-up">
         <Container>
           <Row>
             <Col>
@@ -42,4 +50,4 @@ const works = () => {
   );
 };
 
-export default works;
+export default Works;

@@ -10,7 +10,13 @@ import about4 from "../public/excel.svg";
 // import maleavatar from "../public/male.svg";
 import Testimonials from "../components/testimonials";
 import Contact from "../components/contact";
+import Aos from "aos";
+import React from "react";
+import "aos/dist/aos.css";
 const About = () => {
+  React.useEffect(() => {
+    Aos.init({ duration: 750 });
+  }, []);
   return (
     <>
       <Head>
@@ -18,7 +24,7 @@ const About = () => {
         <meta name="description" content="best website agency in Nigeria" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <section id="about-section">
+      <section id="about-section" data-aos="fade-up">
         <Container className="about">
           <Row>
             <Col sm>
@@ -45,7 +51,13 @@ const About = () => {
         <br />
         <br />
         <Container className="containers">
-          <Image src={about1} className="about-img" alt="image" width={2000} height={1300} />
+          <Image
+            src={about1}
+            className="about-img"
+            alt="image"
+            width={2000}
+            height={1300}
+          />
         </Container>
         <Container id="values" className="containers">
           <h2>CORE VALUES</h2>

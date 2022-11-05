@@ -5,10 +5,13 @@ import "../styles/about/about.css";
 import "../styles/work/work.css";
 import { AppProps } from "next/app";
 
-export default function MyApp({ Component, pageProps }: AppProps) {
+
+export default function MyApp({ Component, pageProps,router }: AppProps) {
   return (
     <Layout>
-      <Component {...pageProps} />
+     
+        <Component key={router.pathname} {...pageProps} />
+   
     </Layout>
   );
 }
