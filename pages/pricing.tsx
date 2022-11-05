@@ -1,6 +1,10 @@
 import Head from "next/head";
+import { Container } from "react-bootstrap";
+import Aos from "aos";
+import React from "react";
+import "aos/dist/aos.css";
 
-const pricing = () => {
+const Pricing = () => {
   return (
     <>
       <Head>
@@ -15,4 +19,4 @@ const pricing = () => {
   );
 };
 
-export default pricing;
+export default Pricing;
