@@ -8,17 +8,22 @@ const Works = () => {
     <Container>
       <div className="work">
         <div className="center">
-          <h3>Works</h3>
-          <h4>
+          <h3 data-aos="fade-down">Works</h3>
+          <h4 data-aos="fade-up">
             Our clients are the companies and <br /> startups who make the world
             go around
           </h4>
         </div>
         <Row>
-          <Col className="thumb"sm>
-            <div>
+          <Col className="thumb" sm>
+            <div data-aos="fade-up">
               <div className="img-center">
-                <Image src={akeredolu} alt="akeredolu" width={300} height={400} />
+                <Image
+                  src={akeredolu}
+                  alt="akeredolu"
+                  width={300}
+                  height={400}
+                />
               </div>
               <div>
                 <div className="text-bg">
@@ -44,7 +49,7 @@ const Works = () => {
           </Col>
 
           <Col className="thumb" sm>
-            <div>
+            <div data-aos="fade-down">
               <div className="img-center">
                 <Image src={roche} alt="roche-wears" width={300} height={400} />
               </div>

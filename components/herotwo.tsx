@@ -4,13 +4,13 @@ const HeroTwo = () => {
   return (
     <>
       <Container fluid id="services">
-        <h1>
+        <h1 data-aos="fade-up">
           We offer a wide range <br /> of design services.
         </h1>
         <Container fluid className="mb-5 service">
           <Row>
             <Col sm className="cols">
-              <div>
+              <div data-aos="fade-up">
                 <div>
                   <h2>PRODUCT DESIGN</h2>
                 </div>
@@ -23,7 +23,7 @@ const HeroTwo = () => {
               </div>
             </Col>
             <Col sm className="cols">
-              <div>
+              <div data-aos="fade-up">
                 <div>
                   <h2>web development</h2>
                 </div>
@@ -37,7 +37,7 @@ const HeroTwo = () => {
               </div>
             </Col>
             <Col className="cols" sm>
-              <div>
+              <div data-aos="fade-up">
                 <div>
                   <h2>GRAPHIC DESIGN</h2>
                 </div>
@@ -53,7 +53,7 @@ const HeroTwo = () => {
         </Container>
         <Container fluid className="service service-two">
           <Row>
-            <Col className="cols" sm>
+            <Col className="cols" sm data-aos="fade-up">
               <div>
                 <div>
                   <h2>APP DEVELOPMENT</h2>
@@ -66,10 +66,11 @@ const HeroTwo = () => {
                 </div>
               </div>
             </Col>
-            <Col className="premium cols" sm>
+            <Col className="premium cols" sm data-aos="fade-up">
               <div>
                 <div>
-                  <strong>SEO</strong> <small className="small-b">premium</small>
+                  <strong>SEO</strong>{" "}
+                  <small className="small-b">premium</small>
                 </div>
                 <div>
                   <p>
@@ -79,10 +80,11 @@ const HeroTwo = () => {
                 </div>
               </div>
             </Col>
-            <Col className="premium cols" sm >
+            <Col className="premium cols" sm data-aos="fade-up">
               <div>
                 <div>
-                  <strong>AUTOMATION</strong> <small className="small-l">premium</small>
+                  <strong>AUTOMATION</strong>{" "}
+                  <small className="small-l">premium</small>
                 </div>
                 <div>
                   <p>

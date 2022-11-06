@@ -4,13 +4,13 @@ const Process = () => {
   return (
     <>
       <Container fluid id="services">
-        <h1>
+        <h1 data-aos="fade-up">
           A Simple, yet effective <br /> three step process.
         </h1>
         <Container fluid className="mb-5 service">
           <Row>
             <Col sm className="cols">
-              <div>
+              <div data-aos="fade-up">
                 <div>
                   <h2>PROJECT IDEA</h2>
                 </div>
@@ -23,7 +23,7 @@ const Process = () => {
               </div>
             </Col>
             <Col sm className="cols">
-              <div>
+              <div data-aos="fade-up">
                 <div>
                   <h2>EXECUTION</h2>
                 </div>
@@ -37,7 +37,7 @@ const Process = () => {
               </div>
             </Col>
             <Col sm className="cols">
-              <div>
+              <div data-aos="fade-up">
                 <div>
                   <h2>LAUNCH</h2>
                 </div>

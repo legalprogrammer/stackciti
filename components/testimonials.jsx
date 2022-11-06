@@ -13,12 +13,12 @@ const Testimonials = () => {
     <div className="testimonials">
       <Container>
         <div>
-          <h3>Relationships based on trust.</h3>
+          <h3 data-aos="fade-up">Relationships based on trust.</h3>
         </div>
         <Container className="thumbnail-section">
-          <Row>
+          <Row data-aos="fade-up">
             <Col sm className="thumbnails">
-              <article className="article">
+              <article className="article" data-aos="fade-down">
                 <div className="star">
                   <small>
                     {" "}
@@ -71,7 +71,7 @@ const Testimonials = () => {
               </article>
             </Col>
             <Col className="thumbnails" sm>
-              <article className="article lower">
+              <article className="article lower" data-aos="fade-down">
                 <div className="star">
                   <small>
                     {" "}
@@ -124,7 +124,7 @@ const Testimonials = () => {
               </article>
             </Col>
             <Col className="thumbnails" sm>
-              <article className="article ">
+              <article className="article" data-aos="fade-up">
                 <div className="star">
                   <small>
                     {" "}
@@ -180,7 +180,7 @@ const Testimonials = () => {
         </Container>
         <Container className="thumbnail-section">
           <Row>
-            <Col className="thumbnails">
+            <Col className="thumbnails" data-aos="fade-down">
               <article className="article">
                 <div className="star">
                   <small>
@@ -234,7 +234,7 @@ const Testimonials = () => {
               </article>
             </Col>
             <Col className="thumbnails" sm>
-              <article className="article lower">
+              <article className="article lower" data-aos="fade-up">
                 <div className="star">
                   <small>
                     {" "}
@@ -287,7 +287,7 @@ const Testimonials = () => {
               </article>
             </Col>
             <Col className="thumbnails">
-              <article className="article ">
+              <article className="article" data-aos="fade-down">
                 <div className="star">
                   <small>
                     {" "}

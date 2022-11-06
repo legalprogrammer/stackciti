@@ -5,7 +5,7 @@ import Navbar from "react-bootstrap/Navbar";
 
 const Mobile = () => {
   return (
-    <div id="mobile">
+    <div id="mobile" data-aos="fade-up">
       <Navbar
         expand="lg"
         variant="dark"

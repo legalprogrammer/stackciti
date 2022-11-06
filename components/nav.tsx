@@ -7,7 +7,7 @@ import Navbar from "react-bootstrap/Navbar";
 const NavBar = () => {
   return (
     <>
-      <Navbar id="navbar" expand="lg">
+      <Navbar id="navbar" expand="lg" data-aos="fade-up">
         <Container fluid id="navbar">
           <Navbar.Brand>
             <Link href="/">

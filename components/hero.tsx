@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <div className="mt-5 hero">
+    <div className="mt-5 hero" data-aos="fade-up">
       <div>
         <div id="hero-container">
           <div>

@@ -15,7 +15,7 @@ import React from "react";
 import "aos/dist/aos.css";
 const About = () => {
   React.useEffect(() => {
-    Aos.init({ duration: 750 });
+    Aos.init({ duration: 800 });
   }, []);
   return (
     <>
@@ -60,8 +60,8 @@ const About = () => {
           />
         </Container>
         <Container id="values" className="containers">
-          <h2>CORE VALUES</h2>
-          <p>
+          <h2 data-aos="fade-up">CORE VALUES</h2>
+          <p data-aos="fade-up">
             Driven by both skill , we work with company change-makers and
             visionaries to create the world’s most exciting brand interfaces
           </p>
@@ -83,7 +83,7 @@ const About = () => {
                 </p>
               </div>
             </Col>
-            <Col sm>
+            <Col sm data-aos="fade-down">
               <div>
                 <Image src={about3} alt="image" width={300} height={300} />
               </div>
@@ -98,7 +98,7 @@ const About = () => {
             </Col>
           </Row>
           <Row>
-            <Col sm>
+            <Col sm data-aos="fade-right">
               <div>
                 <Image src={about4} alt="image" width={300} height={300} />
               </div>
@@ -111,7 +111,7 @@ const About = () => {
                 </p>
               </div>
             </Col>
-            <Col sm>
+            <Col sm data-aos="fade-up">
               <div>
                 <Image src={about5} alt="image" width={300} height={300} />
               </div>
