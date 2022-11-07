@@ -43,8 +43,9 @@ const HeroTwo = () => {
                 </div>
                 <div>
                   <p>
-                    We design websites ,apps, and print collateral for some of
-                    the world’s most recognized brands
+                    Create your new brand, logo, website, viral social hit, or
+                    next lit piece. Our creative team will make your campaign or
+                    organization look good while doing good.
                   </p>
                 </div>
               </div>
@@ -60,8 +61,7 @@ const HeroTwo = () => {
                 </div>
                 <div>
                   <p>
-                    We design websites ,apps, and print collateral for some of
-                    the world’s most recognized brands
+                    {`We develop functional & user friendly mobile apps for IOS & Android that reflects high brand credibility to allow your customers to have all information at their fingertips.`}
                   </p>
                 </div>
               </div>
@@ -74,8 +74,9 @@ const HeroTwo = () => {
                 </div>
                 <div>
                   <p>
-                    We design websites ,apps, and print collateral for some of
-                    the world’s most recognized brands
+                    We understand what words to use,how to use and when to use,
+                    these words help in SEO ranking and attract more users to
+                    your website
                   </p>
                 </div>
               </div>
@@ -83,13 +84,13 @@ const HeroTwo = () => {
             <Col className="premium cols" sm data-aos="fade-up">
               <div>
                 <div>
-                  <strong>AUTOMATION</strong>{" "}
+                  <strong>BLOCKCHAIN</strong>{" "}
                   <small className="small-l">premium</small>
                 </div>
                 <div>
                   <p>
-                    We design websites ,apps, and print collateral for some of
-                    the world’s most recognized brands
+                    Web 3 provides processes to reinvent development that brings
+                    innovative solution in different sectors.We develop apps on blockchain networks.
                   </p>
                 </div>
               </div>

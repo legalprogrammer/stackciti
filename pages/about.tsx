@@ -34,15 +34,6 @@ const About = () => {
                   We are a digital agency with a taste for outstanding products
                 </h2>
               </div>
-              <div>
-                <h4>
-                  Stackciti has been delivering top notch digital solutions for
-                  over the years. We work with amazing companies, ranging from
-                  small startups to heavy weight enterprises. We know we have
-                  done our jobs when someones day is a bit better just by using
-                  our products.
-                </h4>
-              </div>
             </Col>
           </Row>
         </Container>
@@ -51,24 +42,23 @@ const About = () => {
         <br />
         <br />
         <Container className="containers">
-          <Image
-            src={about1}
-            className="about-img"
-            alt="image"
-            width={2000}
-            height={1300}
-          />
+          <h4 className="title-n" data-aos="fade-up">
+            why Stackciti ?
+          </h4>
+          <p className="title-text" data-aos="fade-up">
+            Stackciti is a team of writers, designers, coders, and strategists
+            passionate about making real change. We are a design and technology
+            agency started by Olamide and Chris. We invent products, experiences
+            and environments that stimulate imagination and stir action in your
+            audience.
+          </p>
         </Container>
         <Container id="values" className="containers">
-          <h2 data-aos="fade-up">CORE VALUES</h2>
-          <p data-aos="fade-up">
-            Driven by both skill , we work with company change-makers and
-            visionaries to create the world’s most exciting brand interfaces
-          </p>
+          <h2 data-aos="fade-up" className="title-n">
+            CORE VALUES
+          </h2>
           <br />
-          <br />
-          <br />
-          <br />
+
           <Row>
             <Col sm>
               <div>
@@ -126,11 +116,6 @@ const About = () => {
             </Col>
           </Row>
         </Container>
-        <Testimonials />
-        <br />
-        <br />
-        <br />
-        <br />
         <br />
         {/* <Container>
           <h3>Meet the team</h3>

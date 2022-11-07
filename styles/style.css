@@ -33,7 +33,7 @@ body .navbar:hover {
   color: #fff;
 }
 body code {
-  color: #c2a213;
+  color: #fee715;
   margin-left: 20px;
 }
 body a {
@@ -255,21 +255,30 @@ body .testimonials h3 {
 body .testimonials .thumbnail-section {
   margin-top: 0px;
 }
+body .testimonials p {
+  font-weight: 200;
+  font-size: 15px;
+  opacity: 0.8;
+}
 body .testimonials .customer-posting {
   display: grid;
   grid-template-columns: 1fr 5fr;
   align-items: center;
 }
 body .testimonials .article {
-  background-color: rgba(115, 118, 128, 0.19);
+  background-color: #18181B;
   padding: 25px 25px;
   border-radius: 15px;
 }
 body .testimonials .article .star {
   margin-bottom: 20px;
 }
+body .testimonials .article small {
+  font-weight: 100;
+}
 body .testimonials .article #gray {
   color: rgba(115, 118, 128, 0.59);
+  font-weight: 900;
 }
 body .testimonials .lower {
   margin-top: 90px;
@@ -304,7 +313,7 @@ body .price-section .price ul {
   margin-top: 40px;
 }
 body #contact {
-  margin-top: 250px;
+  margin-top: 190px;
   text-align: center;
 }
 body #contact h3 {
@@ -382,6 +391,160 @@ body #footer #code {
   text-align: center;
 }
 
+@media screen and (min-width: 1920px) and (max-width: 2560px) {
+  body .navbar {
+    color: #fff;
+  }
+  body .navbar:hover {
+    color: #fff;
+  }
+  body code {
+    color: #c2a213;
+    margin-left: 20px;
+  }
+  body a {
+    text-decoration: none;
+    color: #202d58;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  body p {
+    font-family: poppins, sans-serif;
+  }
+  body #hover-nav {
+    color: #737680;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  body #hover-nav:hover {
+    color: #333e63;
+  }
+  body .logo {
+    text-transform: uppercase;
+    font-family: heebo;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: poppins;
+    margin-left: 17rem;
+  }
+  body #mobile {
+    display: none;
+  }
+  body #navbar {
+    margin: auto 20px;
+    margin-top: 10px;
+    align-items: center;
+  }
+  body #nav-right {
+    margin: auto 150px;
+  }
+  body .nav-link {
+    color: #737680;
+    font-size: 18px;
+  }
+  body .btn-container .btn {
+    background: none;
+    margin-left: -220px;
+    border: 1px solid #fff;
+    border-radius: 0px;
+  }
+  body .btn-container .btn:hover {
+    background-color: #fff;
+    color: #131313;
+  }
+  body .hero {
+    margin-bottom: 250px;
+  }
+  body .hero #hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 90px;
+    margin-left: 20rem;
+    position: relative;
+  }
+  body .hero #hero-container #none {
+    display: block;
+  }
+  body .hero #hero-container .btn-mobile {
+    display: none;
+  }
+  body .hero #hero-container h2 {
+    width: 60%;
+    font-size: 3rem;
+    margin-top: 70px;
+  }
+  body .hero #hero-container p {
+    color: #737680;
+    font-size: 1.09rem;
+    width: 50%;
+    margin-top: 20px;
+  }
+  body .hero #hero-container .img {
+    position: absolute;
+    margin-left: 60rem;
+    margin-top: 7rem;
+    transform: scale(1);
+  }
+  body .hero #hero-container .btns {
+    margin-top: 70px;
+  }
+  body .hero #hero-container .btns button {
+    background: none;
+    margin-left: -220px;
+    border: 1px solid #fff;
+    border-radius: 0px;
+    margin-left: 0px;
+    padding: 10px 37px;
+    font-size: 18px;
+  }
+  body .hero #hero-container .btns button:hover {
+    background-color: #fff;
+    color: #131313;
+  }
+  body .hero #hero-container .btns button:hover {
+    background-color: transparent;
+    color: #fff;
+  }
+  body .hero #hero-container .btns strong button {
+    background-color: #fff;
+    color: #131313;
+  }
+}
+@media screen and (min-width: 1280px) and (max-width: 1280px) {
+  body #services .small-b {
+    margin-left: 120px;
+    padding: 7px 10px;
+  }
+  body #services .small-l {
+    margin-left: 50px;
+    padding: 7px 10px;
+    color: #131313;
+    border-radius: 15px;
+    background-image: linear-gradient(210deg, rgb(250, 74, 50), rgb(249, 229, 52) 50%, rgb(68, 250, 217));
+  }
+  body #services p {
+    font-size: 1rem;
+    margin-top: 30px;
+    width: 100%;
+    color: #737680;
+  }
+  body #services .cols {
+    border: 1px solid #232327;
+    border-radius: 0px;
+    margin: auto 30px;
+    padding: 35px 30px;
+    height: 14rem;
+  }
+  body #services .premium {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 15px;
+    -o-border-image: linear-gradient(210deg, rgb(250, 74, 50), rgb(249, 229, 52) 50%, rgb(68, 250, 217)) 1;
+       border-image: linear-gradient(210deg, rgb(250, 74, 50), rgb(249, 229, 52) 50%, rgb(68, 250, 217)) 1;
+  }
+}
 @media screen and (max-width: 800px) {
   body .logo {
     text-transform: uppercase;
@@ -585,7 +748,6 @@ body #services strong {
     margin-top: 20px;
   }
   body .testimonials .article {
-    background-color: rgba(115, 118, 128, 0.19);
     padding: 25px 25px;
     border-radius: 15px;
     margin-top: 50px;
@@ -630,7 +792,7 @@ body #services strong {
     margin-top: 40px;
   }
   body #contact {
-    margin-top: 250px;
+    margin-top: 150px;
   }
   body #contact h3 {
     font-size: 2.5rem;
@@ -939,7 +1101,6 @@ body #services strong {
     margin-top: 20px;
   }
   body .testimonials .article {
-    background-color: rgba(115, 118, 128, 0.19);
     padding: 25px 25px;
     border-radius: 15px;
     margin-top: 50px;
@@ -984,7 +1145,7 @@ body #services strong {
     margin-top: 40px;
   }
   body #contact {
-    margin-top: 250px;
+    margin-top: 150px;
   }
   body #contact h3 {
     font-size: 2.5rem;
@@ -1292,7 +1453,6 @@ body #services strong {
     margin-top: 20px;
   }
   body .testimonials .article {
-    background-color: rgba(115, 118, 128, 0.19);
     padding: 25px 25px;
     border-radius: 15px;
     margin-top: 50px;
@@ -1337,7 +1497,7 @@ body #services strong {
     margin-top: 40px;
   }
   body #contact {
-    margin-top: 250px;
+    margin-top: 150px;
   }
   body #contact h3 {
     font-size: 2.5rem;
@@ -1628,7 +1788,6 @@ body #services strong {
     margin-top: 20px;
   }
   body .testimonials .article {
-    background-color: rgba(115, 118, 128, 0.19);
     padding: 25px 25px;
     border-radius: 15px;
     margin-top: 50px;
@@ -1673,7 +1832,7 @@ body #services strong {
     margin-top: 40px;
   }
   body #contact {
-    margin-top: 250px;
+    margin-top: 150px;
   }
   body #contact h3 {
     font-size: 2.5rem;
@@ -2098,7 +2257,6 @@ body #services strong {
     margin-top: 20px;
   }
   body .testimonials .article {
-    background-color: rgba(115, 118, 128, 0.19);
     padding: 25px 25px;
     border-radius: 15px;
     margin-top: 50px;
@@ -2143,12 +2301,12 @@ body #services strong {
     margin-top: 40px;
   }
   body #contact {
-    margin-top: 250px;
+    margin-top: 150px;
   }
   body #contact h3 {
     font-size: 2.5rem;
     text-align: center;
-    margin-left: 24px;
+    margin-left: 25px;
   }
   body #contact button {
     background: none;
@@ -2448,7 +2606,6 @@ body #services strong {
     margin-top: 20px;
   }
   body .testimonials .article {
-    background-color: rgba(115, 118, 128, 0.19);
     padding: 25px 25px;
     border-radius: 15px;
     margin-top: 50px;
@@ -2493,7 +2650,7 @@ body #services strong {
     margin-top: 40px;
   }
   body #contact {
-    margin-top: 250px;
+    margin-top: 150px;
   }
   body #contact h3 {
     font-size: 2.5rem;

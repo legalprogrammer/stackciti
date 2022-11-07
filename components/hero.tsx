@@ -42,7 +42,7 @@ const Hero = () => {
             </div>
           </div>
           <div className="img">
-            <Image src={vector1} alt="" width={400} height={480} />
+            <Image src={vector1} alt="img" width={400} height={480} />
           </div>
         </div>
       </div>

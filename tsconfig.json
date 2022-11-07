@@ -15,6 +15,15 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/Layout.tsx", "components/data/workthumbnails.tsx", "components/data/data.tsx"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "components/Layout.tsx",
+    "components/data/workthumbnails.tsx",
+    "components/data/data.tsx",
+    "components/navmobile.jsx",
+    "pages/contact.tsx"
+  ],
   "exclude": ["node_modules"]
 }

@@ -2,13 +2,16 @@ import Link from "next/link";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import React from "react";
 
 const Mobile = () => {
+  const [expanded, setExpanded] = React.useState(false);
   return (
     <div id="mobile" data-aos="fade-up">
       <Navbar
         expand="lg"
         variant="dark"
+        expanded={expanded}
         style={{
           backgroundColor: "#131313",
           color: "#fff",
@@ -24,6 +27,7 @@ const Mobile = () => {
           </Navbar.Brand>
           <Navbar.Toggle
             aria-controls="navbarScroll"
+            onClick={() => setExpanded(expanded ? false : "expanded")}
             style={{ color: "#131313" }}
           />
           <Navbar.Collapse id="navbarScroll">
@@ -33,18 +37,26 @@ const Mobile = () => {
               navbarScroll
             >
               <Link href="/">
-                <span className="nav-link">Home</span>
+                <span className="nav-link" onClick={() => setExpanded(false)}>
+                  Home
+                </span>
               </Link>
               <Link href="/about">
-                <span className="nav-link">About</span>
+                <span className="nav-link" onClick={() => setExpanded(false)}>
+                  About
+                </span>
               </Link>
               <Link href="/pricing">
-                <span className="nav-link">Price guide</span>
+                <span className="nav-link" onClick={() => setExpanded(false)}>
+                  Price guide
+                </span>
               </Link>
               <Link href="/works">
-                <span className="nav-link">Latest works</span>
+                <span className="nav-link" onClick={() => setExpanded(false)}>
+                  Latest works
+                </span>
               </Link>
-              <Link href="/contact">
+              <Link href="/contact" onClick={() => setExpanded(false)}>
                 <span className="nav-link">Contact</span>
               </Link>
             </Nav>
