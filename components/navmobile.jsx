@@ -3,6 +3,8 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import React from "react";
+import Image from "next/image";
+import logo from "../public/logo1.png";
 
 const Mobile = () => {
   const [expanded, setExpanded] = React.useState(false);
@@ -22,7 +24,7 @@ const Mobile = () => {
         <Container fluid>
           <Navbar.Brand style={{ color: "#fff" }}>
             <Link href="/">
-              <h5>STACKCITI</h5>
+              <Image src={logo} alt="img" width={120} height={45} />
             </Link>
           </Navbar.Brand>
           <Navbar.Toggle

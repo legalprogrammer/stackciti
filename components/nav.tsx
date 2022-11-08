@@ -1,8 +1,10 @@
+import Image from "next/image";
 import Link from "next/link";
 import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import logo from "../public/logo1.png";
 
 const NavBar = () => {
   return (
@@ -11,7 +13,7 @@ const NavBar = () => {
         <Container fluid id="navbar">
           <Navbar.Brand>
             <Link href="/">
-              <h4 className="navbar logo">StackCiti</h4>
+              <Image src={logo} alt="img" width={120} height={50} />
             </Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
