@@ -275,7 +275,7 @@ const Testimonials = () => {
                       </small>
                     </div>
                     <div>
-                      <small>nexapay</small> <br />
+                      <small>Nexapay</small> <br />
                       <small id="gray">CTO</small>
                     </div>
                   </div>

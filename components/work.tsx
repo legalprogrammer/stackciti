@@ -76,7 +76,7 @@ const Works = () => {
                             <span>Branding</span>
                           </Col>
                           <Col>
-                            <span>E-commerce</span>
+                            <span>Art direction</span>
                           </Col>
                           <Col>
                             <span>Web Design</span>
