@@ -15,8 +15,8 @@
     border-right: 1px solid transparent;
     color: white;
     outline: none;
-    background: transparent;
-    margin-bottom: 50px;
+    background: #363944;
+    margin-bottom: 30px;
     border-radius: 0px;
     &:focus {
       background-color: none;
@@ -45,11 +45,11 @@
     margin-bottom: 20px;
   }
   .radios {
-    margin-top: 10px;
+    margin-top: 7px;
   }
   #sub {
     width: 100%;
-    margin-top: 80px;
+    margin-top: 30px;
     border: none;
     text-align: center;
     background-color: #363944;
@@ -75,7 +75,7 @@
   .prices {
     padding: 10px 3px;
     width: 85%;
-    margin-top: 15px;
+    margin-top: 10px;
     background-color: transparent;
     color: #737680;
     border: 1px solid #737680;
@@ -104,20 +104,20 @@
       margin-bottom: 20px;
     }
     .radios {
-      margin-top: 10px;
+      margin-top: 7px;
     }
     #sub {
       background-color: #363944;
     }
     #services {
       color: #737680;
-      margin-top: 50px;
+      margin-top: 20px;
       label {
         text-transform: capitalize;
       }
     }
     label {
-      font-size: 13px;
+      font-size: 10px;
     }
     h4 {
       font-size: 30px;
