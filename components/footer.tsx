@@ -20,17 +20,17 @@ const Footer = () => {
                 <Link href="/">Home</Link>
               </li>
               <li data-aos="fade">
-                <Link href="/">About</Link>
+                <Link href="/about">About</Link>
               </li>
               <li data-aos="fade">
                 <Link href="/">Services</Link>
               </li>
               <li data-aos="fade">
-                <Link href="/">Work</Link>
+                <Link href="/works">Work</Link>
               </li>
 
               <li data-aos="fade">
-                <Link href="/">Contact</Link>
+                <Link href="/contact">Contact</Link>
               </li>
             </ul>
           </div>
@@ -38,16 +38,16 @@ const Footer = () => {
             <h3 data-aos="fade">Services</h3>
             <ul>
               <li data-aos="fade">
-                <Link href="/">branding</Link>
+                <Link href="#">Design services</Link>
               </li>
               <li data-aos="fade">
-                <Link href="/">web development</Link>
+                <Link href="#">web development</Link>
               </li>
               <li data-aos="fade">
-                <Link href="/">ui & ux design</Link>
+                <Link href="#">Web 3/ blockchain</Link>
               </li>
               <li data-aos="fade">
-                <Link href="/">Twitter</Link>
+                <Link href="#">App development</Link>
               </li>
             </ul>
           </div>
@@ -58,13 +58,25 @@ const Footer = () => {
                 <Link href="/">Facebook</Link>
               </li>
               <li data-aos="fade">
-                <Link href="/">instagram</Link>
+                <Link href="https://www.instagram.com/lamiide_">
+                  <a target="_blank" rel="noopener noreferrer">
+                    Instagram
+                  </a>
+                </Link>
               </li>
               <li data-aos="fade">
-                <Link href="/">whatsapp</Link>
+                <Link href="https://twitter.com/stackciti_">
+                  <a target="_blank" rel="noopener noreferrer">
+                    Twitter
+                  </a>
+                </Link>
               </li>
               <li data-aos="fade">
-                <Link href="/">Twitter</Link>
+                <Link href="https://wa.me/2347044790780?text=">
+                  <a target="_blank" rel="noopener noreferrer">
+                    WhatsApp
+                  </a>
+                </Link>
               </li>
             </ul>
           </div>

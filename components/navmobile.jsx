@@ -35,7 +35,7 @@ const Mobile = () => {
           <Navbar.Collapse id="navbarScroll">
             <Nav
               className="me-auto my-2 my-lg-0"
-              style={{ maxHeight: "300px" }}
+              style={{ maxHeight: "320px" }}
               navbarScroll
             >
               <Link href="/">
@@ -58,8 +58,10 @@ const Mobile = () => {
                   Latest works
                 </span>
               </Link>
-              <Link href="/contact" onClick={() => setExpanded(false)}>
-                <span className="nav-link">Contact</span>
+              <Link href="/contact">
+                <span className="nav-link" onClick={() => setExpanded(false)}>
+                  Contact
+                </span>
               </Link>
             </Nav>
           </Navbar.Collapse>

@@ -12,7 +12,7 @@ const Workhumbnails = () => {
       {work.map((workinfo) => (
         <>
           <div className="thumb">
-            <Container>
+            <Container key={workinfo.key}>
               <div id="work-thumb">
                 <div>
                   <div>
@@ -37,7 +37,9 @@ const Workhumbnails = () => {
                     <div>
                       <span id="category">{workinfo.category}</span>
                     </div>
-                    <br /><br /><br />
+                    <br />
+                    <br />
+                    <br />
                     <div>
                       <Link href={workinfo.links}>visit website</Link>
                     </div>

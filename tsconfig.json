@@ -23,7 +23,8 @@
     "components/data/workthumbnails.tsx",
     "components/data/data.tsx",
     "components/navmobile.jsx",
-    "pages/contact.tsx"
+    "pages/contact.tsx",
+    "components/form.jsx"
   ],
   "exclude": ["node_modules"]
 }
