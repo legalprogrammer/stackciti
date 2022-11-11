@@ -22,6 +22,10 @@ const About = () => {
       <Head>
         <title> About us - Stack citi</title>
         <meta name="description" content="best website agency in Nigeria" />
+        <meta
+          name="keywords"
+          content="Stackciti,  We are a digital agency with a taste for outstanding products"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <section id="about-section" data-aos="fade-up">
