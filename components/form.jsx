@@ -128,7 +128,7 @@ export const ContactUs = () => {
             type="text"
             name="user_description"
             autocomplete="off"
-            placeholder="Tell us about your project "
+            placeholder="Tell us about your project and budget"
             className="same project"
             onChange={(e) => setProject(e.target.value)}
           />
