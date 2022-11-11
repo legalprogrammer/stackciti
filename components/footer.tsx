@@ -1,8 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Col, Container, Row } from "react-bootstrap";
-import Times from "./time";
+
 import logo from "../public/logo1.png";
+import Clock from "./time";
 
 const Footer = () => {
   return (
@@ -11,7 +12,7 @@ const Footer = () => {
         <section>
           <div data-aos="fade">
             <Image src={logo} alt="img" width={120} height={50} />
-            <Times />
+            <Clock />
           </div>
           <div>
             <h3 data-aos="fade">Pages</h3>

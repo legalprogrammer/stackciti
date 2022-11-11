@@ -3,7 +3,7 @@ import emailjs from "@emailjs/browser";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import { Col, Container, Row } from "react-bootstrap";
-import { CurrencyNet } from "currencynet";
+// import { CurrencyNet } from "currencynet";
 
 export const ContactUs = () => {
   const firstRef = useRef(null);
@@ -32,6 +32,7 @@ export const ContactUs = () => {
       setError(true);
     } else {
       setError(false);
+      alert("form submitted successfully");
     }
     e.preventDefault();
 
