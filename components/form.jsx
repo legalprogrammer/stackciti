@@ -155,13 +155,13 @@ export const ContactUs = () => {
                   id={`PRODUCT DESIGN`}
                   value={`PRODUCT DESIGN`}
                   name="user_product_design"
-                  autocomplete="off"
+                  autoComplete="off"
                 />
               </div>
               <div>
                 <Form.Check
                   className="radios"
-                  autocomplete="off"
+                  autoComplete="off"
                   type="radio"
                   label={`WEB DEVELOPMENT`}
                   id={`WEB DEVELOPMENT`}
@@ -173,7 +173,7 @@ export const ContactUs = () => {
                 <Form.Check
                   className="radios"
                   type="radio"
-                  autocomplete="off"
+                  autoComplete="off"
                   label={`GRAPHIC DESIGN`}
                   id={`GRAPHIC DESIGN`}
                   value="GRAPHIC DESIGN"
@@ -186,7 +186,7 @@ export const ContactUs = () => {
                 <Form.Check
                   className="radios"
                   type="radio"
-                  autocomplete="off"
+                  autoComplete="off"
                   label={`APP DEVELOPMENT`}
                   id={`APP DEVELOPMENT`}
                   value="APP DEVELOPMENT"
@@ -197,7 +197,7 @@ export const ContactUs = () => {
                 <Form.Check
                   className="radios"
                   type="radio"
-                  autocomplete="off"
+                  autoComplete="off"
                   label={`SEO`}
                   id={`SEO`}
                   value="SEO"
@@ -210,7 +210,7 @@ export const ContactUs = () => {
                   type="radio"
                   label={`BLOCKCHAIN`}
                   id={`BLOCKCHAIN`}
-                  autocomplete="off"
+                  autoComplete="off"
                   value="BLOCKCHAIN"
                   name="user_blockchain"
                 />
