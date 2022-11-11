@@ -275,7 +275,7 @@ const Testimonials = () => {
                       </small>
                     </div>
                     <div>
-                      <small>Nexapay</small> <br />
+                      <small>Arqpay.ng</small> <br />
                       <small id="gray">CTO</small>
                     </div>
                   </div>
