@@ -72,11 +72,30 @@
 #contact-page h4 {
   font-size: 30px;
   margin-bottom: 60px;
+  text-align: center;
+}
+#contact-page .socials {
+  text-align: center;
+}
+#contact-page #tel {
+  margin-left: -60px;
+}
+#contact-page span {
+  margin-left: 60px;
+  cursor: pointer;
+}
+#contact-page .icons {
+  margin-left: -100px;
+  margin-top: 20px;
 }
 #contact-page a {
   text-decoration: none;
   color: #737680;
   font-size: 20px;
+  align-self: center;
+}
+#contact-page a small {
+  margin-top: 30px;
 }
 #contact-page .prices {
   padding: 10px 3px;
@@ -99,6 +118,18 @@
     margin-top: 100px;
     margin-bottom: 100px;
     font-size: 2rem;
+  }
+  #contact-page #tel {
+    margin-left: -10px;
+  }
+  #contact-page span {
+    margin-left: 60px;
+    cursor: pointer;
+  }
+  #contact-page .icons {
+    margin-left: -70px;
+    margin-top: 0px;
+    margin-bottom: 50px;
   }
   #contact-page .name {
     margin-top: 60px;

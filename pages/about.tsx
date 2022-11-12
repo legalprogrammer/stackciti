@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { Col, Container, Row } from "react-bootstrap";
 import about1 from "../public/about5.jpg";
+import laptopwork from "../public/laptopwork.svg";
 import about2 from "../public/craft.svg";
 import about3 from "../public/eager.svg";
 import about5 from "../public/joy.svg";
@@ -45,6 +46,19 @@ const About = () => {
         <br />
         <br />
         <br />
+        <Container className="containers">
+          <Row>
+            <Col sm>
+              <p id="words">
+                Driven by both skill , we work with company change-makers and
+                visionaries to create the world’s most exciting brand interfaces
+              </p>
+            </Col>
+            <Col sm>
+              <Image src={laptopwork} alt="image" width={500} height={350} />
+            </Col>
+          </Row>
+        </Container>
         <Container className="containers">
           <h4 className="title-n" data-aos="fade-up">
             why Stackciti ?

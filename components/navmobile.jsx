@@ -43,9 +43,9 @@ const Mobile = () => {
                   Home
                 </span>
               </Link>
-              <Link href="/about">
+              <Link href="/works">
                 <span className="nav-link" onClick={() => setExpanded(false)}>
-                  About
+                  Latest works
                 </span>
               </Link>
               <Link href="/pricing">
@@ -53,14 +53,14 @@ const Mobile = () => {
                   Price guide
                 </span>
               </Link>
-              <Link href="/works">
-                <span className="nav-link" onClick={() => setExpanded(false)}>
-                  Latest works
-                </span>
-              </Link>
               <Link href="/contact">
                 <span className="nav-link" onClick={() => setExpanded(false)}>
                   Contact
+                </span>
+              </Link>
+              <Link href="/about">
+                <span className="nav-link" onClick={() => setExpanded(false)}>
+                  About
                 </span>
               </Link>
             </Nav>

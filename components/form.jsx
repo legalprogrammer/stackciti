@@ -57,7 +57,7 @@ export const ContactUs = () => {
   };
 
   return (
-    <Container>
+    <Container data-aos="fade">
       <Form ref={form} onSubmit={sendEmail}>
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Control

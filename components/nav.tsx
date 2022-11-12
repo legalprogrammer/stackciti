@@ -33,9 +33,9 @@ const NavBar = () => {
                   Home
                 </span>
               </Link>
-              <Link href="/about">
+              <Link href="/works">
                 <span id="hover-nav" className="nav-link mx-4">
-                  About
+                  Latest works
                 </span>
               </Link>
               <Link href="/pricing">
@@ -43,20 +43,20 @@ const NavBar = () => {
                   Price guide
                 </span>
               </Link>
-              <Link href="/works">
-                <span id="hover-nav" className="nav-link mx-4">
-                  Latest works
-                </span>
-              </Link>
               <Link href="/contact">
                 <span id="hover-nav" className="nav-link mx-4">
                   Contact
                 </span>
               </Link>
+              <Link href="/about">
+                <span id="hover-nav" className="nav-link mx-4">
+                  About
+                </span>
+              </Link>
             </Nav>
             <div className="btn-container">
               <Link href="/contact">
-                <Button>GET STARTED </Button>
+                <Button>Get Started </Button>
               </Link>
             </div>
           </Navbar.Collapse>
