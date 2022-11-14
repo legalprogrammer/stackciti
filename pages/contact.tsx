@@ -22,7 +22,14 @@ const Contact = () => {
         <meta name="description" content="best website agency" />
         <meta
           name="keywords"
-          content="Stackciti,  We are a digital agency with a taste for outstanding products, cleaveland,germany, austraila,ohio,texas"
+          content="Stackciti,  We are a digital agency with a taste for outstanding products, cleaveland,germany,
+           austraila,ohio,texas
+           web design agency denver
+           best chicago web design agency
+           ecommerce web design agency london
+           web design agency cleveland
+           best web design agency toronto
+"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
