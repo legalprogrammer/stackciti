@@ -11,7 +11,7 @@ const NavBar = () => {
     <>
       <Navbar id="navbar" expand="lg" data-aos="fade-up">
         <Container fluid id="navbar">
-          <Navbar.Brand>
+          <Navbar.Brand id="logo-img">
             <Link href="/">
               <Image src={logo} alt="img" width={120} height={50} />
             </Link>
