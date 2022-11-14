@@ -48,7 +48,7 @@ body {
     }
   }
   code {
-    color: #FEE715FF;
+    color: #fee715ff;
     margin-left: 20px;
   }
   a {
@@ -66,8 +66,9 @@ body {
     cursor: pointer;
     transition: 0.5s;
     &:hover {
-      color: #333e63;
+      color: #f5d105;
     }
+   
   }
   .logo {
     text-transform: uppercase;
@@ -137,7 +138,8 @@ body {
           @include btn();
           margin-left: 0px;
           padding: 10px 37px;
-          font-size: 15px;  border: none;
+          font-size: 15px;
+          border: none;
           transition: 0.5s;
           &:hover {
             background-color: transparent;
@@ -281,7 +283,7 @@ body {
     .thumbnail-section {
       margin-top: 0px;
     }
-    p{
+    p {
       font-weight: 200;
       font-size: 15px;
       opacity: 0.8;
@@ -292,13 +294,13 @@ body {
       align-items: center;
     }
     .article {
-      background-color: #18181B;
+      background-color: #18181b;
       padding: 25px 25px;
       border-radius: 15px;
       .star {
         margin-bottom: 20px;
       }
-      small{
+      small {
         font-weight: 100;
       }
       #gray {
@@ -2482,7 +2484,6 @@ body {
         color: #737680;
       }
       .cols {
-      
         margin: 20px;
         padding: 35px 30px;
         height: 100%;
@@ -2559,7 +2560,6 @@ body {
         margin-top: 20px;
       }
       .article {
-
         padding: 25px 25px;
         border-radius: 15px;
         margin-top: 50px;

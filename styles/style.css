@@ -52,7 +52,7 @@ body #hover-nav {
   transition: 0.5s;
 }
 body #hover-nav:hover {
-  color: #333e63;
+  color: #f5d105;
 }
 body .logo {
   text-transform: uppercase;
@@ -274,7 +274,7 @@ body .testimonials .customer-posting {
   align-items: center;
 }
 body .testimonials .article {
-  background-color: #18181B;
+  background-color: #18181b;
   padding: 25px 25px;
   border-radius: 15px;
 }

@@ -42,7 +42,7 @@ const Footer = () => {
                 <Link href="#">Design services</Link>
               </li>
               <li data-aos="fade">
-                <Link href="#">web development</Link>
+                <Link href="#">Web development</Link>
               </li>
               <li data-aos="fade">
                 <Link href="#">Web 3/ blockchain</Link>
@@ -50,13 +50,23 @@ const Footer = () => {
               <li data-aos="fade">
                 <Link href="#">App development</Link>
               </li>
+              <li data-aos="fade">
+                <Link href="#">Artificial intelligence</Link>
+              </li>
+              <li data-aos="fade">
+                <Link href="#">Machine learning</Link>
+              </li>
             </ul>
           </div>
           <div>
             <h3 data-aos="fade">Channels</h3>
             <ul>
               <li data-aos="fade">
-                <Link href="/">Facebook</Link>
+                <Link href="https://www.linkedin.com/company/stackciti-tech/">
+                  <a target="_blank" rel="noopener noreferrer">
+                    Linkedin
+                  </a>
+                </Link>
               </li>
               <li data-aos="fade">
                 <Link href="https://www.instagram.com/lamiide_">

@@ -7,7 +7,7 @@ import { ContactUs } from "../components/form";
 import Link from "next/link";
 import mailicon from "../public/mail.svg";
 import phoneicon from "../public/phone.svg";
-import fbIcon from "../public/fb1.png";
+import linkedin from "../public/linkedin1.svg";
 import twIcon from "../public/tw2.png";
 import instaIcon from "../public/insta.png";
 import Image from "next/image";
@@ -44,6 +44,7 @@ const Contact = () => {
                         alt="image"
                         width={30}
                         height={30}
+                        title="email address"
                       />
                     </small>
                     &nbsp; &nbsp; &nbsp; stackcitidesign@gmail.com
@@ -63,27 +64,40 @@ const Contact = () => {
                 <br />
                 <div className="icons">
                   <span data-aos="fade">
-                    <Link href="https://twitter.com/legalprogrammer">
+                    <Link href="https://twitter.com/stackciti_">
                       <a target="_blank" rel="noopener noreferrer">
-                        <Image src={twIcon} alt="dolu" width={27} height={27} />
+                        <Image
+                          src={twIcon}
+                          alt="dolu"
+                          width={27}
+                          height={27}
+                          title="visit us on twitter"
+                        />
                       </a>
                     </Link>
                   </span>
 
                   <span data-aos="fade">
-                    <Link href="#">
+                    <Link href="https://www.instagram.com/lamiide_">
                       <Image
                         src={instaIcon}
                         alt="dolu"
                         width={27}
                         height={27}
+                        title="visit us on instagram"
                       />
                     </Link>
                   </span>
 
                   <span data-aos="fade">
-                    <Link href="#">
-                      <Image src={fbIcon} alt="dolu" width={27} height={27} />
+                    <Link href="https://www.linkedin.com/company/stackciti-tech/">
+                      <Image
+                        src={linkedin}
+                        alt="linkedin"
+                        width={27}
+                        height={27}
+                        title="visit us on linkedin"
+                      />
                     </Link>
                   </span>
                 </div>

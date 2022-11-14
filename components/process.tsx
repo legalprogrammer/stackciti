@@ -16,8 +16,9 @@ const Process = () => {
                 </div>
                 <div>
                   <p>
-                    We design websites ,apps, and print collateral for some of
-                    the world’s most recognized brands
+                    we transform your Perception into an excellent website &
+                    application.Simple and effective process for 100%
+                    satisfaction
                   </p>
                 </div>
               </div>
@@ -29,9 +30,10 @@ const Process = () => {
                 </div>
                 <div>
                   <p>
-                    Our design approach is to create a website that shows
-                    impressive results representing your brand, ease of use and
-                    simplicity for your audience
+                    There are many factors that must be taken into account
+                    during the execution phase, such as timelines, budgets.All
+                    of these must be managed in order to ensure a successful
+                    outcome.
                   </p>
                 </div>
               </div>
@@ -43,8 +45,10 @@ const Process = () => {
                 </div>
                 <div>
                   <p>
-                    We design websites ,apps, and print collateral for some of
-                    the world’s most recognized brands
+                    {` 
+                    The launch of the project is always an exciting time. It's
+                    when all the hard work and planning comes to fruition and
+                    you get to see the results of your labour.`}
                   </p>
                 </div>
               </div>
