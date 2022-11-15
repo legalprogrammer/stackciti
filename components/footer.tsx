@@ -23,9 +23,9 @@ const Footer = () => {
               <li data-aos="fade">
                 <Link href="/about">About</Link>
               </li>
-              <li data-aos="fade">
-                <Link href="/">Services</Link>
-              </li>
+              {/* <li data-aos="fade">
+                <Link href="/career"></Link>
+              </li> */}
               <li data-aos="fade">
                 <Link href="/works">Work</Link>
               </li>
@@ -39,22 +39,22 @@ const Footer = () => {
             <h3 data-aos="fade">Services</h3>
             <ul>
               <li data-aos="fade">
-                <Link href="#">Design services</Link>
+                <Link href="/contact">Design services</Link>
               </li>
               <li data-aos="fade">
-                <Link href="#">Web development</Link>
+                <Link href="/contact">Web development</Link>
               </li>
               <li data-aos="fade">
-                <Link href="#">Web 3/ blockchain</Link>
+                <Link href="/contact">Web 3/ blockchain</Link>
               </li>
               <li data-aos="fade">
-                <Link href="#">App development</Link>
+                <Link href="/contact">App development</Link>
               </li>
               <li data-aos="fade">
-                <Link href="#">Artificial intelligence</Link>
+                <Link href="/contact">Artificial intelligence</Link>
               </li>
               <li data-aos="fade">
-                <Link href="#">Machine learning</Link>
+                <Link href="/contact">Machine learning</Link>
               </li>
             </ul>
           </div>
@@ -83,7 +83,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li data-aos="fade">
-                <Link href="https://wa.me/2347044790780?text=">
+                <Link href="https://wa.me/2349015651795?text=">
                   <a target="_blank" rel="noopener noreferrer">
                     WhatsApp
                   </a>
@@ -99,7 +99,7 @@ const Footer = () => {
         <Container id="code" data-aos="fade">
           <br />
           <br />
-          <code>built and designed by legalprogrammer</code>
+          <code>Built and Designed by legalprogrammer</code>
           <br />
           <br />
         </Container>

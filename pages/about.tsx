@@ -94,7 +94,7 @@ web design agency in nigeria
         <Container className="about">
           <Row>
             <Col sm>
-              <button>About</button>
+              <button id="fade-btn">About</button>
               <div>
                 <h2>
                   We are a digital agency with a taste for outstanding products

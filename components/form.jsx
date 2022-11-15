@@ -141,7 +141,7 @@ export const ContactUs = () => {
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="formBasicEmail" id="services">
-          <Form.Label>
+          <Form.Label id="interest">
             IN WHICH SERVICES ARE YOU INTERESTED? (CHECK ALL THAT APPLY)
           </Form.Label>
           <br />
@@ -215,6 +215,31 @@ export const ContactUs = () => {
                   name="user_blockchain"
                 />
               </div>
+            </Col>
+            <Col>
+              <div>
+                <Form.Check
+                  className="radios"
+                  type="radio"
+                  autoComplete="off"
+                  label={`ARTIFICIAL INTELLIGENCE`}
+                  id={`ARTIFICIAL INTELLIGENCE`}
+                  value="ARTIFICIAL INTELLIGENCE"
+                  name="user_ai"
+                />
+              </div>
+              <div>
+                <Form.Check
+                  className="radios"
+                  type="radio"
+                  autoComplete="off"
+                  label={`MACHINE LEARNING`}
+                  id={`MACHINE LEARNING`}
+                  value="MACHINE LEARNING"
+                  name="user_ml"
+                />
+              </div>
+            
             </Col>
           </Row>
         </Form.Group>

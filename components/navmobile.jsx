@@ -5,6 +5,7 @@ import Navbar from "react-bootstrap/Navbar";
 import React from "react";
 import Image from "next/image";
 import logo from "../public/logo1.png";
+import { Button } from "react-bootstrap";
 
 const Mobile = () => {
   const [expanded, setExpanded] = React.useState(false);
@@ -14,6 +15,7 @@ const Mobile = () => {
         expand="lg"
         variant="dark"
         expanded={expanded}
+       
         style={{
           backgroundColor: "#131313",
           color: "#fff",
@@ -48,11 +50,11 @@ const Mobile = () => {
                   Latest works
                 </span>
               </Link>
-              <Link href="/pricing">
+              {/* <Link href="/careers">
                 <span className="nav-link" onClick={() => setExpanded(false)}>
-                  Price guide
+                  Careers
                 </span>
-              </Link>
+              </Link> */}
               <Link href="/contact">
                 <span className="nav-link" onClick={() => setExpanded(false)}>
                   Contact
@@ -62,6 +64,9 @@ const Mobile = () => {
                 <span className="nav-link" onClick={() => setExpanded(false)}>
                   About
                 </span>
+              </Link>
+              <Link href="/contact">
+                <Button className="mx-4 btn-mobile">Get Started </Button>
               </Link>
             </Nav>
           </Navbar.Collapse>

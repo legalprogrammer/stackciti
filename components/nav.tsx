@@ -34,22 +34,22 @@ const NavBar = () => {
                 </span>
               </Link>
               <Link href="/works">
-                <span id="hover-nav" className="nav-link mx-4">
+                <span id="hover-nav" className="nav-link mx-5">
                   Latest works
                 </span>
               </Link>
-              <Link href="/pricing">
+              {/* <Link href="/careers">
                 <span id="hover-nav" className="nav-link mx-4">
-                  Price guide
+                  Careers
                 </span>
-              </Link>
+              </Link> */}
               <Link href="/contact">
-                <span id="hover-nav" className="nav-link mx-4">
+                <span id="hover-nav" className="nav-link mx-5">
                   Contact
                 </span>
               </Link>
               <Link href="/about">
-                <span id="hover-nav" className="nav-link mx-4">
+                <span id="hover-nav" className="nav-link mx-5">
                   About
                 </span>
               </Link>

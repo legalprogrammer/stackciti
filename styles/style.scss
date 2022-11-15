@@ -87,6 +87,9 @@ body {
   #nav-right {
     margin: auto 150px;
   }
+  #logo-img{
+    cursor: pointer;
+  }
   .nav-link {
     color: #737680;
     font-size: 18px;
@@ -453,7 +456,7 @@ body {
       font-family: poppins;
       margin-left: 30rem;
     }
-    #logo-img{
+    #logo-img {
       margin-left: 18rem;
     }
     #mobile {
@@ -601,6 +604,14 @@ body {
       .move-left {
         margin-left: 40px;
       }
+      .btn-mobile {
+        
+          @include btn();
+          font-size: 14px;
+          padding: 10px 27px;
+          transition: 0.5s;
+        
+      }
     }
 
     .hero {
@@ -722,6 +733,15 @@ body {
       padding: 20px auto;
       overflow: hidden;
       background-color: #131313;
+        .btn-mobile {
+        
+          @include btn();
+          font-size: 14px;
+          padding: 10px 27px;
+          transition: 0.5s;
+          display: none;
+        
+      }
     }
     .navbar-toggler-icon {
       width: 2.2rem;

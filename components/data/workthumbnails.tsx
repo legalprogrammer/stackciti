@@ -19,21 +19,15 @@ const Workhumbnails = () => {
                     <Image
                       src={workinfo.image}
                       alt="work-img"
-                      width={400}
-                      height={500}
+                      width={workinfo.width}
+                      height={workinfo.height}
                     />
                   </div>
                 </div>
                 <div>
                   <div className="work-text">
-                    <h4>Akeredolu studios</h4>
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Consequuntur, ducimus! Deleniti alias quasi repudiandae
-                      repellendus beatae assumenda quod maiores! Nesciunt esse
-                      voluptatum voluptas reiciendis recusandae natus a cumque,
-                      consequuntur eum?
-                    </p>
+                    <h4>{workinfo.title}</h4>
+                    <p>{workinfo.text}</p>
                     <div>
                       <span id="category">{workinfo.category}</span>
                     </div>
@@ -41,7 +35,11 @@ const Workhumbnails = () => {
                     <br />
                     <br />
                     <div>
-                      <Link href={workinfo.links}>visit website</Link>
+                      <Link href={workinfo.links}>
+                        <a target="_blank" rel="noopener noreferrer">
+                          visit website
+                        </a>
+                      </Link>
                     </div>
                   </div>
                 </div>

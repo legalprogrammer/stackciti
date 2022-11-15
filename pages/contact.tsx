@@ -67,6 +67,14 @@ const Contact = () => {
                 </Link>
                 <br />
                 <br />
+                <Link href="tel:+19034568537">
+                  <a id="tel">
+                    <Image src={phoneicon} alt="image" width={30} height={30} />
+                    &nbsp; &nbsp; &nbsp;+1 (903) (456) (8537)
+                  </a>
+                </Link>
+                <br />
+                <br />
                 <br />
                 <br />
                 <div className="icons">

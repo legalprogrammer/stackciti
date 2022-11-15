@@ -83,7 +83,7 @@
   opacity: 0.6;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 991px) {
   #about-section .containers {
     margin: auto 20px;
     margin-bottom: 150px;
@@ -122,6 +122,10 @@
     color: #737680;
     width: 100%;
     line-height: 1.6;
+  }
+  #about-section .about button {
+    opacity: 1;
+    color: #737680;
   }
   #about-section #values {
     margin-top: 100px;
