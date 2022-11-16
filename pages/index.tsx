@@ -29,6 +29,7 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div data-aos="fade-up">
+    
         <Hero />
         <HeroTwo />
         <Process />

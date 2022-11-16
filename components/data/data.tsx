@@ -5,17 +5,7 @@ import estate from "../../public/estate.jpg";
 import akeredolu from "../../public/clem-onojeghuo-HpEDSZukJqk-unsplash.jpg";
 
 export let data = [
-  {
-    key: 1,
-    id: "akeredolu",
-    title: "Dr Dollydds Dental Clinic",
-    text: "This clinic is owned by Dr. Adedolapo Ayediran She is a member of many professional affiliations such as, American Association of Orthodontics, American Dental Association, New Jersey dental association.",
-    links: "https://dr-dollydds.com/",
-    category: "Web development & SEO",
-    image: dentist,
-    width: 400,
-    height: 540,
-  },
+
   {
     key: 4,
     id: "akeredolu",
@@ -24,6 +14,17 @@ export let data = [
     links: "https://ayoakeredolu.vercel.app/",
     category: "Web development & Branding",
     image: akeredolu,
+    width: 400,
+    height: 500,
+  },
+   {
+    key: 3,
+    id: "akeredolu",
+    title: "Beefit Real Estate Agency",
+    text: "Beefit, A Real estate startup that sells homes at affordable prices",
+    links: "https://beefitng.netlify.app/",
+    category: "web design",
+    image: estate,
     width: 400,
     height: 500,
   },
@@ -38,15 +39,15 @@ export let data = [
     width: 400,
     height: 400,
   },
-  {
-    key: 3,
+    {
+    key: 1,
     id: "akeredolu",
-    title: "Beefit Real Estate Agency",
-    text: "Beefit, A Real estate startup that sells homes at affordable prices",
-    links: "https://beefitng.netlify.app/",
-    category: "web design",
-    image: estate,
+    title: "Dr Dollydds Dental Clinic",
+    text: "This clinic is owned by Dr. Adedolapo Ayediran She is a member of many professional affiliations such as, American Association of Orthodontics, American Dental Association, New Jersey dental association.",
+    links: "https://dr-dollydds.com/",
+    category: "Web development & SEO",
+    image: dentist,
     width: 400,
-    height: 500,
+    height: 540,
   },
 ];

@@ -12,7 +12,7 @@ const Workhumbnails = () => {
       {work.map((workinfo) => (
         <>
           <div className="thumb">
-            <Container key={workinfo.key}>
+            <Container key={workinfo.key} data-aos="fade-up">
               <div id="work-thumb">
                 <div>
                   <div>
