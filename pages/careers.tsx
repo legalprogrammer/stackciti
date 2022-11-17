@@ -8,7 +8,7 @@ const Pricing = () => {
   return (
     <>
       <Head>
-        <title>Careers - Stack citi</title>
+        <title>Careers - Stack citi technologies</title>
         <meta name="description" content="Stackciti website agency" />
         <meta
           name="keywords"

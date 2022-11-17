@@ -21,8 +21,11 @@ const About = () => {
   return (
     <>
       <Head>
-        <title> About us - Stack citi</title>
-        <meta name="description" content="best website agency in Nigeria" />
+        <title> About us - Stack citi technologies</title>
+        <meta
+          name="description"
+          content=" We are a digital agency with a taste for outstanding products"
+        />
         <meta
           name="keywords"
           content="Stackciti,  We are a digital agency with a taste for outstanding products best chicago web design agency

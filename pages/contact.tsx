@@ -18,11 +18,11 @@ const Contact = () => {
   return (
     <>
       <Head>
-        <title>Contact us - Stack citi </title>
+        <title>Contact us - Stack citi technologies </title>
         <meta name="description" content="best website agency" />
         <meta
           name="keywords"
-          content="Stackciti,  We are a digital agency with a taste for outstanding products, cleaveland,germany,
+          content="Stackciti technologies,  We are a digital agency with a taste for outstanding products, cleaveland,germany,
            austraila,ohio,texas
            web design agency denver
            best chicago web design agency

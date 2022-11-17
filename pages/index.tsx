@@ -17,7 +17,7 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Stack citi - Design website agency</title>
+        <title>Stack citi Technologies - Design website agency</title>
         <meta
           name="description"
           content="We are a digital agency with a taste for outstanding products"
