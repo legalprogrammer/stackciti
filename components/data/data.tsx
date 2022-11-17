@@ -42,8 +42,8 @@ export let data = [
     {
     key: 1,
     id: "akeredolu",
-    title: "Dr Dollydds Dental Clinic",
-    text: "This clinic is owned by Dr. Adedolapo Ayediran She is a member of many professional affiliations such as, American Association of Orthodontics, American Dental Association, New Jersey dental association.",
+    title: "",
+    text: "This clinic is owned by Dr. Adedolapo Ayediran.she is a Certified Dentist Provider of OJW* (Orthodontic Jaw Wiring for weight control). She is a member of many professional affiliations such as, American Association of Orthodontics, American Dental Association, New Jersey dental association.",
     links: "https://dr-dollydds.com/",
     category: "Web development & SEO",
     image: dentist,

@@ -30,10 +30,9 @@ const Process = () => {
                 </div>
                 <div>
                   <p>
-                    There are many factors that must be taken into account
-                    during the execution phase, such as timelines, budgets.All
-                    of these must be managed in order to ensure a successful
-                    outcome.
+                    Many factors are to be considered during this phase, such as
+                    timelines, budgets.All of these must be managed to ensure
+                    a successful outcome.
                   </p>
                 </div>
               </div>

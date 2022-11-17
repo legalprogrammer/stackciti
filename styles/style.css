@@ -755,20 +755,23 @@ body #footer #code {
     position: relative;
   }
   body .hero #hero-container h2 {
-    width: 90%;
+    width: 70%;
     font-size: 2.6rem;
-    margin-top: 220px;
+    margin-top: 120px;
     line-height: 1.2;
     font-weight: 900;
   }
   body .hero #hero-container p {
     color: #737680;
     font-size: 1.1rem;
-    width: 80%;
+    width: 70%;
     margin-top: 20px;
   }
   body .hero #hero-container .img {
-    display: none;
+    position: absolute;
+    margin-left: 37rem;
+    margin-top: -20rem;
+    transform: scale(1.1);
   }
   body .hero #hero-container .btns {
     margin-top: 80px;
@@ -813,22 +816,22 @@ body #footer #code {
   body #services h2,
 body #services strong {
     text-transform: uppercase;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     font-weight: 500;
   }
   body #services .small-b {
-    margin-left: 130px;
+    margin-left: 70px;
     padding: 7px 10px;
     background-image: linear-gradient(210deg, rgb(250, 74, 50), rgb(249, 229, 52) 50%, rgb(68, 250, 217));
   }
   body #services .small-l {
-    margin-left: 50px;
+    margin-left: 14px;
     padding: 7px 10px;
     color: #131313;
     background-image: linear-gradient(210deg, rgb(250, 74, 50), rgb(249, 229, 52) 50%, rgb(68, 250, 217));
   }
   body #services p {
-    font-size: 1.04rem;
+    font-size: 0.7rem;
     margin-top: 30px;
     width: 100%;
     color: #737680;
@@ -836,7 +839,7 @@ body #services strong {
   body #services .cols {
     border-radius: 0px;
     margin: 20px;
-    padding: 35px 30px;
+    padding: 25px 20px;
     height: 100%;
   }
   body #services .service-two {
@@ -889,7 +892,7 @@ body #services strong {
   body .work .text span {
     color: rgba(255, 255, 255, 0.5);
     opacity: 0.6;
-    font-size: 13px;
+    font-size: 11px;
   }
   body .testimonials {
     margin-top: 150px;
@@ -906,8 +909,701 @@ body #services strong {
   }
   body .testimonials .customer-posting {
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1fr 3fr;
     margin-top: 20px;
+  }
+  body .testimonials .text p {
+    font-size: 12px;
+  }
+  body .testimonials .article {
+    padding: 25px 25px;
+    border-radius: 15px;
+    margin-top: 50px;
+  }
+  body .testimonials .article .star {
+    margin-bottom: 20px;
+  }
+  body .testimonials .article #gray {
+    color: rgba(115, 118, 128, 0.59);
+  }
+  body .testimonials .lower {
+    margin-top: 30px;
+  }
+  body .price-section {
+    margin-top: 150px;
+    text-align: center;
+  }
+  body .price-section h3 {
+    text-align: center;
+  }
+  body .price-section strong {
+    font-weight: 800;
+    font-size: 30px;
+  }
+  body .price-section .price {
+    background-color: #18181b;
+    padding: 30px 10px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    width: 100%;
+  }
+  body .price-section .price h2 {
+    text-align: center;
+  }
+  body .price-section .price h4 {
+    text-align: center;
+    font-size: 17px;
+    margin-top: 40px;
+  }
+  body .price-section .price ul {
+    margin: auto 80px;
+    margin-top: 40px;
+  }
+  body #contact {
+    margin-top: 150px;
+  }
+  body #contact h3 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-left: 23px;
+  }
+  body #contact button {
+    background: none;
+    margin-left: -220px;
+    border: 1px solid #fff;
+    border-radius: 29px;
+    font-weight: 400;
+    background-color: #fff;
+    color: #131313;
+    margin-left: 0%;
+    padding: 7px 20px;
+    font-size: 17px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    transition: 0.5s;
+  }
+  body #contact button:hover {
+    background-color: #fff;
+    color: #131313;
+  }
+  body #contact button:hover {
+    background-color: #131313;
+    color: #fff;
+  }
+  body #contact span {
+    margin-left: 50px;
+  }
+  body #contact .icons {
+    margin-left: -50px;
+    margin-top: 50px;
+  }
+  body #footer {
+    margin-top: 200px;
+    margin-bottom: 50px;
+  }
+  body #footer section {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 10px;
+    gap: 10px;
+  }
+  body #footer h1 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-family: heebo;
+  }
+  body #footer h3 {
+    font-size: 19px;
+  }
+  body #footer p {
+    margin-top: 40px;
+    font-size: 1.1rem;
+  }
+  body #footer ul {
+    list-style: none;
+    padding-top: 20px;
+  }
+  body #footer ul li a {
+    margin-left: -30px;
+    margin-top: 30px;
+  }
+  body #footer #copyright {
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+}
+@media screen and (max-width: 850px) {
+  body .logo {
+    text-transform: uppercase;
+    font-family: heebo;
+  }
+  body #navbar {
+    display: none;
+  }
+  body #mobile {
+    display: block;
+    width: 100%;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 20px auto;
+    overflow: hidden;
+    background-color: #131313;
+  }
+  body #mobile .btn-mobile {
+    background: none;
+    margin-left: -220px;
+    border: 1px solid #fff;
+    border-radius: 29px;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 10px 27px;
+    transition: 0.5s;
+    display: none;
+  }
+  body #mobile .btn-mobile:hover {
+    background-color: #fff;
+    color: #131313;
+  }
+  body .navbar-toggler-icon {
+    width: 2.2rem;
+  }
+  body #nav-right {
+    margin: auto 0px;
+  }
+  body .nav-link {
+    color: #737680;
+    font-size: 18px;
+  }
+  body .btn-container .btn {
+    background: none;
+    margin-left: -220px;
+    border: 1px solid #fff;
+    border-radius: 29px;
+    font-weight: 400;
+    margin-left: 0%;
+  }
+  body .btn-container .btn:hover {
+    background-color: #fff;
+    color: #131313;
+  }
+  body .hero {
+    margin-bottom: 200px;
+  }
+  body .hero #hero-container {
+    display: block;
+    align-items: left;
+    margin: 20px 20px;
+    margin-top: 0px;
+    position: relative;
+  }
+  body .hero #hero-container h2 {
+    width: 70%;
+    font-size: 2.6rem;
+    margin-top: 120px;
+    line-height: 1.2;
+    font-weight: 900;
+  }
+  body .hero #hero-container p {
+    color: #737680;
+    font-size: 1.1rem;
+    width: 70%;
+    margin-top: 20px;
+  }
+  body .hero #hero-container .img {
+    position: absolute;
+    margin-left: 35rem;
+    margin-top: -20rem;
+    transform: scale(1.4);
+  }
+  body .hero #hero-container .btns {
+    margin-top: 80px;
+  }
+  body .hero #hero-container .btns button {
+    background: none;
+    margin-left: -220px;
+    border: 1px solid #fff;
+    border-radius: 29px;
+    font-weight: 400;
+    margin-left: 0px;
+    padding: 15px 45px;
+    font-size: 18px;
+  }
+  body .hero #hero-container .btns button:hover {
+    background-color: #fff;
+    color: #131313;
+  }
+  body .hero #hero-container .btns button:hover {
+    background-color: transparent;
+    color: #fff;
+  }
+  body .hero #hero-container .btns .small button {
+    padding: 15px 45px;
+    font-size: 18px;
+  }
+  body .hero #hero-container .btns strong button {
+    background-color: #fff;
+    color: #131313;
+  }
+  body #services {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  body #services h1 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+  }
+  body #services h2,
+body #services strong {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+  body #services .small-b {
+    margin-left: 70px;
+    padding: 7px 10px;
+    background-image: linear-gradient(210deg, rgb(250, 74, 50), rgb(249, 229, 52) 50%, rgb(68, 250, 217));
+  }
+  body #services .small-l {
+    margin-left: 14px;
+    padding: 7px 10px;
+    color: #131313;
+    background-image: linear-gradient(210deg, rgb(250, 74, 50), rgb(249, 229, 52) 50%, rgb(68, 250, 217));
+  }
+  body #services p {
+    font-size: 0.7rem;
+    margin-top: 30px;
+    width: 100%;
+    color: #737680;
+  }
+  body #services .cols {
+    border-radius: 0px;
+    margin: 20px;
+    padding: 25px 20px;
+    height: 100%;
+  }
+  body #services .service-two {
+    margin-top: -40px;
+  }
+  body .work {
+    margin-top: 100px;
+    margin-bottom: 200px;
+    cursor: pointer;
+  }
+  body .work .img-center {
+    text-align: center;
+    border: 1px solid #737680;
+    border-bottom: none;
+  }
+  body .work .thumb {
+    margin: 30px 15px;
+  }
+  body .work .center {
+    text-align: center;
+    margin-bottom: 100px;
+    margin-left: 25px;
+  }
+  body .work .center h3 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  body .work .center h4 {
+    font-size: 1rem;
+  }
+  body .work .text-bg {
+    background: rgba(115, 118, 128, 0.19);
+    width: 100%;
+    border-left: 1px solid #737680;
+    border-right: 1px solid #737680;
+    border-bottom: 1px solid #737680;
+    border-top: none;
+  }
+  body .work .text {
+    padding: 10px 20px;
+    width: 100%;
+    margin: 0%;
+  }
+  body .work .text h2 {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  body .work .text span {
+    color: rgba(255, 255, 255, 0.5);
+    opacity: 0.6;
+    font-size: 11px;
+  }
+  body .testimonials {
+    margin-top: 150px;
+  }
+  body .testimonials h3 {
+    text-align: center;
+    margin-bottom: 80px;
+    font-size: 2.5rem;
+    margin-left: 30px;
+  }
+  body .testimonials .thumbnail-section {
+    margin-top: 0px;
+    margin-left: 20px;
+  }
+  body .testimonials .customer-posting {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin-top: 20px;
+  }
+  body .testimonials .text p {
+    font-size: 12px;
+  }
+  body .testimonials .article {
+    padding: 25px 25px;
+    border-radius: 15px;
+    margin-top: 50px;
+  }
+  body .testimonials .article .star {
+    margin-bottom: 20px;
+  }
+  body .testimonials .article #gray {
+    color: rgba(115, 118, 128, 0.59);
+  }
+  body .testimonials .lower {
+    margin-top: 30px;
+  }
+  body .price-section {
+    margin-top: 150px;
+    text-align: center;
+  }
+  body .price-section h3 {
+    text-align: center;
+  }
+  body .price-section strong {
+    font-weight: 800;
+    font-size: 30px;
+  }
+  body .price-section .price {
+    background-color: #18181b;
+    padding: 30px 10px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    width: 100%;
+  }
+  body .price-section .price h2 {
+    text-align: center;
+  }
+  body .price-section .price h4 {
+    text-align: center;
+    font-size: 17px;
+    margin-top: 40px;
+  }
+  body .price-section .price ul {
+    margin: auto 80px;
+    margin-top: 40px;
+  }
+  body #contact {
+    margin-top: 150px;
+  }
+  body #contact h3 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-left: 23px;
+  }
+  body #contact button {
+    background: none;
+    margin-left: -220px;
+    border: 1px solid #fff;
+    border-radius: 29px;
+    font-weight: 400;
+    background-color: #fff;
+    color: #131313;
+    margin-left: 0%;
+    padding: 7px 20px;
+    font-size: 17px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    transition: 0.5s;
+  }
+  body #contact button:hover {
+    background-color: #fff;
+    color: #131313;
+  }
+  body #contact button:hover {
+    background-color: #131313;
+    color: #fff;
+  }
+  body #contact span {
+    margin-left: 50px;
+  }
+  body #contact .icons {
+    margin-left: -50px;
+    margin-top: 50px;
+  }
+  body #footer {
+    margin-top: 200px;
+    margin-bottom: 50px;
+  }
+  body #footer section {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 10px;
+    gap: 10px;
+  }
+  body #footer h1 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-family: heebo;
+  }
+  body #footer h3 {
+    font-size: 19px;
+  }
+  body #footer p {
+    margin-top: 40px;
+    font-size: 1.1rem;
+  }
+  body #footer ul {
+    list-style: none;
+    padding-top: 20px;
+  }
+  body #footer ul li a {
+    margin-left: -30px;
+    margin-top: 30px;
+  }
+  body #footer #copyright {
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+}
+@media screen and (max-width: 750px) {
+  body .logo {
+    text-transform: uppercase;
+    font-family: heebo;
+  }
+  body #navbar {
+    display: none;
+  }
+  body #mobile {
+    display: block;
+    width: 100%;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 20px auto;
+    overflow: hidden;
+    background-color: #131313;
+  }
+  body #mobile .btn-mobile {
+    background: none;
+    margin-left: -220px;
+    border: 1px solid #fff;
+    border-radius: 29px;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 10px 27px;
+    transition: 0.5s;
+    display: none;
+  }
+  body #mobile .btn-mobile:hover {
+    background-color: #fff;
+    color: #131313;
+  }
+  body .navbar-toggler-icon {
+    width: 2.2rem;
+  }
+  body #nav-right {
+    margin: auto 0px;
+  }
+  body .nav-link {
+    color: #737680;
+    font-size: 18px;
+  }
+  body .btn-container .btn {
+    background: none;
+    margin-left: -220px;
+    border: 1px solid #fff;
+    border-radius: 29px;
+    font-weight: 400;
+    margin-left: 0%;
+  }
+  body .btn-container .btn:hover {
+    background-color: #fff;
+    color: #131313;
+  }
+  body .hero {
+    margin-bottom: 200px;
+  }
+  body .hero #hero-container {
+    display: block;
+    align-items: left;
+    margin: 20px 20px;
+    margin-top: 0px;
+    position: relative;
+  }
+  body .hero #hero-container h2 {
+    width: 70%;
+    font-size: 2.6rem;
+    margin-top: 120px;
+    line-height: 1.2;
+    font-weight: 900;
+  }
+  body .hero #hero-container p {
+    color: #737680;
+    font-size: 1.1rem;
+    width: 70%;
+    margin-top: 20px;
+  }
+  body .hero #hero-container .img {
+    position: absolute;
+    margin-left: 35rem;
+    margin-top: -20rem;
+    transform: scale(1.4);
+  }
+  body .hero #hero-container .btns {
+    margin-top: 80px;
+  }
+  body .hero #hero-container .btns button {
+    background: none;
+    margin-left: -220px;
+    border: 1px solid #fff;
+    border-radius: 29px;
+    font-weight: 400;
+    margin-left: 0px;
+    padding: 15px 45px;
+    font-size: 18px;
+  }
+  body .hero #hero-container .btns button:hover {
+    background-color: #fff;
+    color: #131313;
+  }
+  body .hero #hero-container .btns button:hover {
+    background-color: transparent;
+    color: #fff;
+  }
+  body .hero #hero-container .btns .small button {
+    padding: 15px 45px;
+    font-size: 18px;
+  }
+  body .hero #hero-container .btns strong button {
+    background-color: #fff;
+    color: #131313;
+  }
+  body #services {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  body #services h1 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+  }
+  body #services h2,
+body #services strong {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+  body #services .small-b {
+    margin-left: 40px;
+    padding: 7px 10px;
+    background-image: linear-gradient(210deg, rgb(250, 74, 50), rgb(249, 229, 52) 50%, rgb(68, 250, 217));
+    font-size: 10px;
+  }
+  body #services .small-l {
+    margin-left: 10px;
+    padding: 7px 10px;
+    color: #131313;
+    background-image: linear-gradient(210deg, rgb(250, 74, 50), rgb(249, 229, 52) 50%, rgb(68, 250, 217));
+    font-size: 10px;
+  }
+  body #services p {
+    font-size: 0.7rem;
+    margin-top: 30px;
+    width: 100%;
+    color: #737680;
+  }
+  body #services .cols {
+    border-radius: 0px;
+    margin: 20px 10px;
+    padding: 25px 20px;
+    height: 100%;
+  }
+  body #services .service-two {
+    margin-top: -40px;
+  }
+  body .work {
+    margin-top: 100px;
+    margin-bottom: 200px;
+    cursor: pointer;
+  }
+  body .work .img-center {
+    text-align: center;
+    border: 1px solid #737680;
+    border-bottom: none;
+  }
+  body .work .thumb {
+    margin: 30px 15px;
+  }
+  body .work .center {
+    text-align: center;
+    margin-bottom: 100px;
+    margin-left: 25px;
+  }
+  body .work .center h3 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  body .work .center h4 {
+    font-size: 1rem;
+  }
+  body .work .text-bg {
+    background: rgba(115, 118, 128, 0.19);
+    width: 100%;
+    border-left: 1px solid #737680;
+    border-right: 1px solid #737680;
+    border-bottom: 1px solid #737680;
+    border-top: none;
+  }
+  body .work .text {
+    padding: 10px 20px;
+    width: 100%;
+    margin: 0%;
+  }
+  body .work .text h2 {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  body .work .text span {
+    color: rgba(255, 255, 255, 0.5);
+    opacity: 0.6;
+    font-size: 11px;
+  }
+  body .testimonials {
+    margin-top: 150px;
+  }
+  body .testimonials .row {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  body .testimonials h3 {
+    text-align: center;
+    margin-bottom: 80px;
+    font-size: 2.3rem;
+    margin-left: 30px;
+  }
+  body .testimonials .thumbnail-section {
+    margin-top: 0px;
+    margin-left: 20px;
+  }
+  body .testimonials .customer-posting {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    margin-top: 20px;
+  }
+  body .testimonials .text p {
+    font-size: 12px;
   }
   body .testimonials .article {
     padding: 25px 25px;
@@ -1162,6 +1858,10 @@ body #services strong {
     margin-top: 200px;
     margin-bottom: 100px;
   }
+  body #services .row {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
   body #services h1 {
     text-align: center;
     font-size: 1.8rem;
@@ -1519,6 +2219,11 @@ body #services strong {
     margin-top: 200px;
     margin-bottom: 100px;
   }
+  body #services .row {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
   body #services h1 {
     text-align: center;
     font-size: 1.8rem;
@@ -1533,12 +2238,12 @@ body #services strong {
     font-weight: 500;
   }
   body #services .small-b {
-    margin-left: 130px;
+    margin-left: 180px;
     padding: 7px 10px;
     background-image: linear-gradient(210deg, rgb(250, 74, 50), rgb(249, 229, 52) 50%, rgb(68, 250, 217));
   }
   body #services .small-l {
-    margin-left: 50px;
+    margin-left: 100px;
     padding: 7px 10px;
     color: #131313;
     background-image: linear-gradient(210deg, rgb(250, 74, 50), rgb(249, 229, 52) 50%, rgb(68, 250, 217));
@@ -1597,14 +2302,14 @@ body #services strong {
     margin: 0%;
   }
   body .work .text h2 {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     margin-bottom: 10px;
     color: #fff;
   }
   body .work .text span {
     color: rgba(255, 255, 255, 0.5);
     opacity: 0.6;
-    font-size: 13px;
+    font-size: 10px;
   }
   body .testimonials {
     margin-top: 150px;
@@ -1621,7 +2326,7 @@ body #services strong {
   }
   body .testimonials .customer-posting {
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1fr 9fr;
     margin-top: 20px;
   }
   body .testimonials .article {
@@ -1755,7 +2460,7 @@ body #services strong {
     color: #131313;
   }
   body .hero {
-    margin-bottom: 200px;
+    margin-bottom: 350px;
   }
   body .hero #hero-container {
     display: block;
@@ -1765,24 +2470,24 @@ body #services strong {
     position: relative;
   }
   body .hero #hero-container h2 {
-    width: 90%;
+    width: 70%;
     font-size: 2.6rem;
-    margin-top: 230px;
+    margin-top: 100px;
     line-height: 1.2;
     font-weight: 900;
   }
   body .hero #hero-container p {
     color: #737680;
     font-size: 1.1rem;
-    width: 100%;
+    width: 70%;
     margin-top: 20px;
   }
   body .hero #hero-container .img {
     position: relative;
-    margin-left: 19rem;
-    margin-top: -22rem;
+    margin-left: 30rem;
+    margin-top: -19rem;
     transform: scale(1.8);
-    display: none;
+    display: block;
   }
   body .hero #hero-container #none {
     display: none;
@@ -1872,17 +2577,6 @@ body #services strong {
     font-size: 1.2rem;
     font-weight: 500;
   }
-  body #services .small-b {
-    margin-left: 130px;
-    padding: 7px 10px;
-    background-image: linear-gradient(210deg, rgb(250, 74, 50), rgb(249, 229, 52) 50%, rgb(68, 250, 217));
-  }
-  body #services .small-l {
-    margin-left: 50px;
-    padding: 7px 10px;
-    color: #131313;
-    background-image: linear-gradient(210deg, rgb(250, 74, 50), rgb(249, 229, 52) 50%, rgb(68, 250, 217));
-  }
   body #services p {
     font-size: 1.04rem;
     margin-top: 30px;
@@ -1945,38 +2639,6 @@ body #services strong {
     color: rgba(255, 255, 255, 0.5);
     opacity: 0.6;
     font-size: 13px;
-  }
-  body .testimonials {
-    margin-top: 150px;
-  }
-  body .testimonials h3 {
-    text-align: center;
-    margin-bottom: 80px;
-    font-size: 2.5rem;
-    margin-left: 30px;
-  }
-  body .testimonials .thumbnail-section {
-    margin-top: 0px;
-    margin-left: 20px;
-  }
-  body .testimonials .customer-posting {
-    display: grid;
-    grid-template-columns: 1fr 4fr;
-    margin-top: 20px;
-  }
-  body .testimonials .article {
-    padding: 25px 25px;
-    border-radius: 15px;
-    margin-top: 50px;
-  }
-  body .testimonials .article .star {
-    margin-bottom: 20px;
-  }
-  body .testimonials .article #gray {
-    color: rgba(115, 118, 128, 0.59);
-  }
-  body .testimonials .lower {
-    margin-top: 30px;
   }
   body .price-section {
     margin-top: 150px;
@@ -2081,7 +2743,499 @@ body #services strong {
     margin-left: 50px;
   }
 }
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 617px) {
+  body .hero {
+    margin-bottom: 350px;
+  }
+  body .hero #hero-container {
+    display: block;
+    align-items: left;
+    margin: 20px 20px;
+    margin-top: 0px;
+    position: relative;
+  }
+  body .hero #hero-container .img {
+    position: relative;
+    margin-left: 30rem;
+    margin-top: -15rem;
+    transform: scale(2.8);
+    display: block;
+  }
+  body .hero #hero-container #none {
+    display: none;
+  }
+  body .hero #hero-container .btn-mobile {
+    display: block;
+    margin-top: 50px;
+    width: 100%;
+  }
+  body .hero #hero-container .btn-mobile #start {
+    background: none;
+    margin-left: -220px;
+    border: 1px solid #fff;
+    border-radius: 29px;
+    font-weight: 400;
+    margin-left: 0px;
+    padding: 10px 20px;
+    font-size: 19px;
+    background-color: #fff;
+    color: #131313;
+  }
+  body .hero #hero-container .btn-mobile #start:hover {
+    background-color: #fff;
+    color: #131313;
+  }
+  body .hero #hero-container .btn-mobile #works {
+    background: none;
+    margin-left: -220px;
+    border: 1px solid #fff;
+    border-radius: 29px;
+    font-weight: 400;
+    margin-left: 0px;
+    padding: 15px 20px;
+    font-size: 17px;
+    background-color: transparent;
+    color: #fff;
+    width: 100%;
+    display: none;
+  }
+  body .hero #hero-container .btn-mobile #works:hover {
+    background-color: #fff;
+    color: #131313;
+  }
+  body .hero #hero-container .btns {
+    margin-top: 80px;
+  }
+  body .hero #hero-container .btns button {
+    background: none;
+    margin-left: -220px;
+    border: 1px solid #fff;
+    border-radius: 29px;
+    font-weight: 400;
+    margin-left: 0px;
+    padding: 15px 45px;
+    font-size: 18px;
+  }
+  body .hero #hero-container .btns button:hover {
+    background-color: #fff;
+    color: #131313;
+  }
+  body .hero #hero-container .btns button:hover {
+    background-color: transparent;
+    color: #fff;
+  }
+  body .hero #hero-container .btns .small button {
+    padding: 15px 45px;
+    font-size: 18px;
+  }
+  body .hero #hero-container .btns strong button {
+    background-color: #fff;
+    color: #131313;
+  }
+}
+@media screen and (max-width: 600px) {
+  body .hero {
+    margin-bottom: 350px;
+  }
+  body .hero #hero-container .img {
+    position: relative;
+    margin-left: 30rem;
+    margin-top: -15rem;
+    transform: scale(3.4);
+    display: block;
+  }
+  body .hero #hero-container #none {
+    display: none;
+  }
+  body .hero #hero-container .btn-mobile {
+    display: block;
+    margin-top: 50px;
+    width: 100%;
+  }
+  body .hero #hero-container .btn-mobile #start {
+    background: none;
+    margin-left: -220px;
+    border: 1px solid #fff;
+    border-radius: 29px;
+    font-weight: 400;
+    margin-left: 0px;
+    padding: 10px 20px;
+    font-size: 19px;
+    background-color: #fff;
+    color: #131313;
+  }
+  body .hero #hero-container .btn-mobile #start:hover {
+    background-color: #fff;
+    color: #131313;
+  }
+  body .hero #hero-container .btn-mobile #works {
+    background: none;
+    margin-left: -220px;
+    border: 1px solid #fff;
+    border-radius: 29px;
+    font-weight: 400;
+    margin-left: 0px;
+    padding: 15px 20px;
+    font-size: 17px;
+    background-color: transparent;
+    color: #fff;
+    width: 100%;
+    display: none;
+  }
+  body .hero #hero-container .btn-mobile #works:hover {
+    background-color: #fff;
+    color: #131313;
+  }
+  body .hero #hero-container .btns {
+    margin-top: 80px;
+  }
+  body .hero #hero-container .btns button {
+    background: none;
+    margin-left: -220px;
+    border: 1px solid #fff;
+    border-radius: 29px;
+    font-weight: 400;
+    margin-left: 0px;
+    padding: 15px 45px;
+    font-size: 18px;
+  }
+  body .hero #hero-container .btns button:hover {
+    background-color: #fff;
+    color: #131313;
+  }
+  body .hero #hero-container .btns button:hover {
+    background-color: transparent;
+    color: #fff;
+  }
+  body .hero #hero-container .btns .small button {
+    padding: 15px 45px;
+    font-size: 18px;
+  }
+  body .hero #hero-container .btns strong button {
+    background-color: #fff;
+    color: #131313;
+  }
+}
+@media screen and (max-width: 580px) {
+  body .hero {
+    margin-bottom: 350px;
+  }
+  body .hero #hero-container .img {
+    position: relative;
+    margin-left: 30rem;
+    margin-top: -15rem;
+    transform: scale(4.2);
+    display: block;
+  }
+  body .hero #hero-container #none {
+    display: none;
+  }
+  body .hero #hero-container .btn-mobile {
+    display: block;
+    margin-top: 50px;
+    width: 100%;
+  }
+  body .hero #hero-container .btn-mobile #start {
+    background: none;
+    margin-left: -220px;
+    border: 1px solid #fff;
+    border-radius: 29px;
+    font-weight: 400;
+    margin-left: 0px;
+    padding: 10px 20px;
+    font-size: 19px;
+    background-color: #fff;
+    color: #131313;
+  }
+  body .hero #hero-container .btn-mobile #start:hover {
+    background-color: #fff;
+    color: #131313;
+  }
+  body .hero #hero-container .btn-mobile #works {
+    background: none;
+    margin-left: -220px;
+    border: 1px solid #fff;
+    border-radius: 29px;
+    font-weight: 400;
+    margin-left: 0px;
+    padding: 15px 20px;
+    font-size: 17px;
+    background-color: transparent;
+    color: #fff;
+    width: 100%;
+    display: none;
+  }
+  body .hero #hero-container .btn-mobile #works:hover {
+    background-color: #fff;
+    color: #131313;
+  }
+  body .hero #hero-container .btns {
+    margin-top: 80px;
+  }
+  body .hero #hero-container .btns button {
+    background: none;
+    margin-left: -220px;
+    border: 1px solid #fff;
+    border-radius: 29px;
+    font-weight: 400;
+    margin-left: 0px;
+    padding: 15px 45px;
+    font-size: 18px;
+  }
+  body .hero #hero-container .btns button:hover {
+    background-color: #fff;
+    color: #131313;
+  }
+  body .hero #hero-container .btns button:hover {
+    background-color: transparent;
+    color: #fff;
+  }
+  body .hero #hero-container .btns .small button {
+    padding: 15px 45px;
+    font-size: 18px;
+  }
+  body .hero #hero-container .btns strong button {
+    background-color: #fff;
+    color: #131313;
+  }
+}
+@media screen and (max-width: 560px) {
+  body .hero {
+    margin-bottom: 350px;
+  }
+  body .hero #hero-container .img {
+    position: relative;
+    margin-left: 30rem;
+    margin-top: -15rem;
+    transform: scale(5.6);
+    display: block;
+  }
+  body .hero #hero-container #none {
+    display: none;
+  }
+  body .hero #hero-container .btn-mobile {
+    display: block;
+    margin-top: 50px;
+    width: 100%;
+  }
+  body .hero #hero-container .btn-mobile #start {
+    background: none;
+    margin-left: -220px;
+    border: 1px solid #fff;
+    border-radius: 29px;
+    font-weight: 400;
+    margin-left: 0px;
+    padding: 10px 20px;
+    font-size: 19px;
+    background-color: #fff;
+    color: #131313;
+  }
+  body .hero #hero-container .btn-mobile #start:hover {
+    background-color: #fff;
+    color: #131313;
+  }
+  body .hero #hero-container .btn-mobile #works {
+    background: none;
+    margin-left: -220px;
+    border: 1px solid #fff;
+    border-radius: 29px;
+    font-weight: 400;
+    margin-left: 0px;
+    padding: 15px 20px;
+    font-size: 17px;
+    background-color: transparent;
+    color: #fff;
+    width: 100%;
+    display: none;
+  }
+  body .hero #hero-container .btn-mobile #works:hover {
+    background-color: #fff;
+    color: #131313;
+  }
+  body .hero #hero-container .btns {
+    margin-top: 80px;
+  }
+  body .hero #hero-container .btns button {
+    background: none;
+    margin-left: -220px;
+    border: 1px solid #fff;
+    border-radius: 29px;
+    font-weight: 400;
+    margin-left: 0px;
+    padding: 15px 45px;
+    font-size: 18px;
+  }
+  body .hero #hero-container .btns button:hover {
+    background-color: #fff;
+    color: #131313;
+  }
+  body .hero #hero-container .btns button:hover {
+    background-color: transparent;
+    color: #fff;
+  }
+  body .hero #hero-container .btns .small button {
+    padding: 15px 45px;
+    font-size: 18px;
+  }
+  body .hero #hero-container .btns strong button {
+    background-color: #fff;
+    color: #131313;
+  }
+}
+@media screen and (max-width: 545px) {
+  body .hero {
+    margin-bottom: 350px;
+  }
+  body .hero #hero-container .img {
+    position: relative;
+    margin-left: 28rem;
+    margin-top: -15rem;
+    transform: scale(5.6);
+    display: block;
+  }
+  body .hero #hero-container #none {
+    display: none;
+  }
+  body .hero #hero-container .btn-mobile {
+    display: block;
+    margin-top: 50px;
+    width: 100%;
+  }
+  body .hero #hero-container .btn-mobile #start {
+    background: none;
+    margin-left: -220px;
+    border: 1px solid #fff;
+    border-radius: 29px;
+    font-weight: 400;
+    margin-left: 0px;
+    padding: 10px 20px;
+    font-size: 19px;
+    background-color: #fff;
+    color: #131313;
+  }
+  body .hero #hero-container .btn-mobile #start:hover {
+    background-color: #fff;
+    color: #131313;
+  }
+  body .hero #hero-container .btn-mobile #works {
+    background: none;
+    margin-left: -220px;
+    border: 1px solid #fff;
+    border-radius: 29px;
+    font-weight: 400;
+    margin-left: 0px;
+    padding: 15px 20px;
+    font-size: 17px;
+    background-color: transparent;
+    color: #fff;
+    width: 100%;
+    display: none;
+  }
+  body .hero #hero-container .btn-mobile #works:hover {
+    background-color: #fff;
+    color: #131313;
+  }
+  body .hero #hero-container .btns {
+    margin-top: 80px;
+  }
+  body .hero #hero-container .btns button {
+    background: none;
+    margin-left: -220px;
+    border: 1px solid #fff;
+    border-radius: 29px;
+    font-weight: 400;
+    margin-left: 0px;
+    padding: 15px 45px;
+    font-size: 18px;
+  }
+  body .hero #hero-container .btns button:hover {
+    background-color: #fff;
+    color: #131313;
+  }
+  body .hero #hero-container .btns button:hover {
+    background-color: transparent;
+    color: #fff;
+  }
+  body .hero #hero-container .btns .small button {
+    padding: 15px 45px;
+    font-size: 18px;
+  }
+  body .hero #hero-container .btns strong button {
+    background-color: #fff;
+    color: #131313;
+  }
+}
+@media screen and (max-width: 525px) {
+  body .hero #hero-container .img {
+    margin-left: 27rem;
+    margin-top: -15rem;
+  }
+  body .hero #hero-container .btns {
+    margin-top: 80px;
+  }
+  body .hero #hero-container .btns button {
+    background: none;
+    margin-left: -220px;
+    border: 1px solid #fff;
+    border-radius: 29px;
+    font-weight: 400;
+    margin-left: 0px;
+    padding: 15px 45px;
+    font-size: 18px;
+  }
+  body .hero #hero-container .btns button:hover {
+    background-color: #fff;
+    color: #131313;
+  }
+  body .hero #hero-container .btns button:hover {
+    background-color: transparent;
+    color: #fff;
+  }
+  body .hero #hero-container .btns .small button {
+    padding: 15px 45px;
+    font-size: 18px;
+  }
+  body .hero #hero-container .btns strong button {
+    background-color: #fff;
+    color: #131313;
+  }
+}
+@media screen and (max-width: 510px) {
+  body .hero #hero-container .img {
+    margin-left: 26rem;
+    margin-top: -15rem;
+  }
+  body .hero #hero-container .btns {
+    margin-top: 80px;
+  }
+  body .hero #hero-container .btns button {
+    background: none;
+    margin-left: -220px;
+    border: 1px solid #fff;
+    border-radius: 29px;
+    font-weight: 400;
+    margin-left: 0px;
+    padding: 15px 45px;
+    font-size: 18px;
+  }
+  body .hero #hero-container .btns button:hover {
+    background-color: #fff;
+    color: #131313;
+  }
+  body .hero #hero-container .btns button:hover {
+    background-color: transparent;
+    color: #fff;
+  }
+  body .hero #hero-container .btns .small button {
+    padding: 15px 45px;
+    font-size: 18px;
+  }
+  body .hero #hero-container .btns strong button {
+    background-color: #fff;
+    color: #131313;
+  }
+}
+@media screen and (max-width: 485px) {
   body #nav-right {
     margin: auto 0px;
   }
@@ -2112,7 +3266,7 @@ body #services strong {
     position: relative;
   }
   body .hero #hero-container h2 {
-    width: 90%;
+    width: 75%;
     font-size: 2.5rem;
     margin-top: 120px;
     line-height: 1.2;
@@ -2121,13 +3275,376 @@ body #services strong {
   body .hero #hero-container p {
     color: #737680;
     font-size: 1.1rem;
-    width: 100%;
+    width: 80%;
     margin-top: 20px;
   }
   body .hero #hero-container .img {
-    margin-left: 19.9rem;
+    margin-left: 23rem;
     margin-top: -23rem;
-    transform: scale(3.2);
+    transform: scale(2.5);
+    display: block;
+  }
+  body .hero #hero-container #none {
+    display: none;
+  }
+  body .hero #hero-container .btn-mobile {
+    display: block;
+    margin-top: 50px;
+    width: 100%;
+  }
+  body .hero #hero-container .btn-mobile #start {
+    background: none;
+    margin-left: -220px;
+    border: 1px solid #fff;
+    border-radius: 29px;
+    font-weight: 400;
+    margin-left: 0px;
+    padding: 10px 20px;
+    font-size: 19px;
+    background-color: #fff;
+    color: #131313;
+  }
+  body .hero #hero-container .btn-mobile #start:hover {
+    background-color: #fff;
+    color: #131313;
+  }
+  body .hero #hero-container .btn-mobile #works {
+    background: none;
+    margin-left: -220px;
+    border: 1px solid #fff;
+    border-radius: 29px;
+    font-weight: 400;
+    margin-left: 0px;
+    padding: 15px 20px;
+    font-size: 17px;
+    background-color: transparent;
+    color: #fff;
+    width: 100%;
+    display: none;
+  }
+  body .hero #hero-container .btn-mobile #works:hover {
+    background-color: #fff;
+    color: #131313;
+  }
+  body .hero #hero-container .btns {
+    margin-top: 80px;
+  }
+  body .hero #hero-container .btns button {
+    background: none;
+    margin-left: -220px;
+    border: 1px solid #fff;
+    border-radius: 29px;
+    font-weight: 400;
+    margin-left: 0px;
+    padding: 15px 45px;
+    font-size: 18px;
+  }
+  body .hero #hero-container .btns button:hover {
+    background-color: #fff;
+    color: #131313;
+  }
+  body .hero #hero-container .btns button:hover {
+    background-color: transparent;
+    color: #fff;
+  }
+  body .hero #hero-container .btns .small button {
+    padding: 15px 45px;
+    font-size: 18px;
+  }
+  body .hero #hero-container .btns strong button {
+    background-color: #fff;
+    color: #131313;
+  }
+}
+@media screen and (max-width: 440px) {
+  body #nav-right {
+    margin: auto 0px;
+  }
+  body .nav-link {
+    color: #737680;
+    font-size: 18px;
+  }
+  body .btn-container .btn {
+    background: none;
+    margin-left: -220px;
+    border: 1px solid #fff;
+    border-radius: 29px;
+    font-weight: 400;
+    margin-left: 0%;
+  }
+  body .btn-container .btn:hover {
+    background-color: #fff;
+    color: #131313;
+  }
+  body .hero {
+    margin-bottom: 500px;
+  }
+  body .hero #hero-container {
+    display: block;
+    align-items: left;
+    margin: 20px 20px;
+    margin-top: 0px;
+    position: relative;
+  }
+  body .hero #hero-container h2 {
+    width: 75%;
+    font-size: 2.5rem;
+    margin-top: 120px;
+    line-height: 1.2;
+    font-weight: 900;
+  }
+  body .hero #hero-container p {
+    color: #737680;
+    font-size: 1.1rem;
+    width: 80%;
+    margin-top: 20px;
+  }
+  body .hero #hero-container .img {
+    margin-left: 22rem;
+    margin-top: -23rem;
+    transform: scale(4);
+    display: block;
+  }
+  body .hero #hero-container #none {
+    display: none;
+  }
+  body .hero #hero-container .btn-mobile {
+    display: block;
+    margin-top: 50px;
+    width: 100%;
+  }
+  body .hero #hero-container .btn-mobile #start {
+    background: none;
+    margin-left: -220px;
+    border: 1px solid #fff;
+    border-radius: 29px;
+    font-weight: 400;
+    margin-left: 0px;
+    padding: 10px 20px;
+    font-size: 19px;
+    background-color: #fff;
+    color: #131313;
+  }
+  body .hero #hero-container .btn-mobile #start:hover {
+    background-color: #fff;
+    color: #131313;
+  }
+  body .hero #hero-container .btn-mobile #works {
+    background: none;
+    margin-left: -220px;
+    border: 1px solid #fff;
+    border-radius: 29px;
+    font-weight: 400;
+    margin-left: 0px;
+    padding: 15px 20px;
+    font-size: 17px;
+    background-color: transparent;
+    color: #fff;
+    width: 100%;
+    display: none;
+  }
+  body .hero #hero-container .btn-mobile #works:hover {
+    background-color: #fff;
+    color: #131313;
+  }
+  body .hero #hero-container .btns {
+    margin-top: 80px;
+  }
+  body .hero #hero-container .btns button {
+    background: none;
+    margin-left: -220px;
+    border: 1px solid #fff;
+    border-radius: 29px;
+    font-weight: 400;
+    margin-left: 0px;
+    padding: 15px 45px;
+    font-size: 18px;
+  }
+  body .hero #hero-container .btns button:hover {
+    background-color: #fff;
+    color: #131313;
+  }
+  body .hero #hero-container .btns button:hover {
+    background-color: transparent;
+    color: #fff;
+  }
+  body .hero #hero-container .btns .small button {
+    padding: 15px 45px;
+    font-size: 18px;
+  }
+  body .hero #hero-container .btns strong button {
+    background-color: #fff;
+    color: #131313;
+  }
+}
+@media screen and (max-width: 425px) {
+  body #nav-right {
+    margin: auto 0px;
+  }
+  body .nav-link {
+    color: #737680;
+    font-size: 18px;
+  }
+  body .btn-container .btn {
+    background: none;
+    margin-left: -220px;
+    border: 1px solid #fff;
+    border-radius: 29px;
+    font-weight: 400;
+    margin-left: 0%;
+  }
+  body .btn-container .btn:hover {
+    background-color: #fff;
+    color: #131313;
+  }
+  body .hero {
+    margin-bottom: 500px;
+  }
+  body .hero #hero-container {
+    display: block;
+    align-items: left;
+    margin: 20px 20px;
+    margin-top: 0px;
+    position: relative;
+  }
+  body .hero #hero-container h2 {
+    width: 75%;
+    font-size: 2.5rem;
+    margin-top: 120px;
+    line-height: 1.2;
+    font-weight: 900;
+  }
+  body .hero #hero-container p {
+    color: #737680;
+    font-size: 1.1rem;
+    width: 80%;
+    margin-top: 20px;
+  }
+  body .hero #hero-container .img {
+    margin-left: 21rem;
+    margin-top: -24rem;
+    transform: scale(4);
+    display: block;
+  }
+  body .hero #hero-container #none {
+    display: none;
+  }
+  body .hero #hero-container .btn-mobile {
+    display: block;
+    margin-top: 50px;
+    width: 100%;
+  }
+  body .hero #hero-container .btn-mobile #start {
+    background: none;
+    margin-left: -220px;
+    border: 1px solid #fff;
+    border-radius: 29px;
+    font-weight: 400;
+    margin-left: 0px;
+    padding: 10px 20px;
+    font-size: 19px;
+    background-color: #fff;
+    color: #131313;
+  }
+  body .hero #hero-container .btn-mobile #start:hover {
+    background-color: #fff;
+    color: #131313;
+  }
+  body .hero #hero-container .btn-mobile #works {
+    background: none;
+    margin-left: -220px;
+    border: 1px solid #fff;
+    border-radius: 29px;
+    font-weight: 400;
+    margin-left: 0px;
+    padding: 15px 20px;
+    font-size: 17px;
+    background-color: transparent;
+    color: #fff;
+    width: 100%;
+    display: none;
+  }
+  body .hero #hero-container .btn-mobile #works:hover {
+    background-color: #fff;
+    color: #131313;
+  }
+  body .hero #hero-container .btns {
+    margin-top: 80px;
+  }
+  body .hero #hero-container .btns button {
+    background: none;
+    margin-left: -220px;
+    border: 1px solid #fff;
+    border-radius: 29px;
+    font-weight: 400;
+    margin-left: 0px;
+    padding: 15px 45px;
+    font-size: 18px;
+  }
+  body .hero #hero-container .btns button:hover {
+    background-color: #fff;
+    color: #131313;
+  }
+  body .hero #hero-container .btns button:hover {
+    background-color: transparent;
+    color: #fff;
+  }
+  body .hero #hero-container .btns .small button {
+    padding: 15px 45px;
+    font-size: 18px;
+  }
+  body .hero #hero-container .btns strong button {
+    background-color: #fff;
+    color: #131313;
+  }
+}
+@media screen and (max-width: 400px) {
+  body #nav-right {
+    margin: auto 0px;
+  }
+  body .nav-link {
+    color: #737680;
+    font-size: 18px;
+  }
+  body .btn-container .btn {
+    background: none;
+    margin-left: -220px;
+    border: 1px solid #fff;
+    border-radius: 29px;
+    font-weight: 400;
+    margin-left: 0%;
+  }
+  body .btn-container .btn:hover {
+    background-color: #fff;
+    color: #131313;
+  }
+  body .hero {
+    margin-bottom: 500px;
+  }
+  body .hero #hero-container {
+    display: block;
+    align-items: left;
+    margin: 20px 20px;
+    margin-top: 0px;
+    position: relative;
+  }
+  body .hero #hero-container h2 {
+    width: 75%;
+    font-size: 2.5rem;
+    margin-top: 120px;
+    line-height: 1.2;
+    font-weight: 900;
+  }
+  body .hero #hero-container p {
+    color: #737680;
+    font-size: 1.1rem;
+    width: 80%;
+    margin-top: 20px;
+  }
+  body .hero #hero-container .img {
+    margin-left: 19rem;
+    margin-top: -24rem;
+    transform: scale(4);
     display: block;
   }
   body .hero #hero-container #none {

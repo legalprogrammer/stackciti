@@ -9,7 +9,7 @@ const HeroTwo = () => {
         </h1>
         <Container fluid className="mb-5 service">
           <Row>
-            <Col sm className="cols">
+            <Col sm className="cols" >
               <div data-aos="fade-up">
                 <div>
                   <h2>PRODUCT DESIGN</h2>
@@ -22,7 +22,7 @@ const HeroTwo = () => {
                 </div>
               </div>
             </Col>
-            <Col sm className="cols">
+            <Col sm className="cols" lg>
               <div data-aos="fade-up">
                 <div>
                   <h2>web development</h2>
@@ -36,7 +36,7 @@ const HeroTwo = () => {
                 </div>
               </div>
             </Col>
-            <Col className="cols" sm>
+            <Col className="cols" sm lg>
               <div data-aos="fade-up">
                 <div>
                   <h2>GRAPHIC DESIGN</h2>
@@ -54,7 +54,7 @@ const HeroTwo = () => {
         </Container>
         <Container fluid className="service service-two">
           <Row>
-            <Col className="cols" sm data-aos="fade-up">
+            <Col className="cols" sm data-aos="fade-up" lg>
               <div>
                 <div>
                   <h2>APP DEVELOPMENT</h2>
@@ -66,7 +66,7 @@ const HeroTwo = () => {
                 </div>
               </div>
             </Col>
-            <Col className="premium cols" sm data-aos="fade-up">
+            <Col className="premium cols" sm lg data-aos="fade-up">
               <div>
                 <div>
                   <strong>SEO</strong>{" "}
