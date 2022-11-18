@@ -19,7 +19,7 @@ export let data = [
   },
    {
     key: 3,
-    id: "akeredolu",
+    id: "beefit",
     title: "Beefit Real Estate Agency",
     text: "Beefit, A Real estate startup that sells homes at affordable prices",
     links: "https://beefitng.netlify.app/",
@@ -30,7 +30,7 @@ export let data = [
   },
   {
     key: 2,
-    id: "akeredolu",
+    id: "flare",
     title: "Flare",
     text: "An app that helps users make friends within streaming communities to build stronger communities for streamers",
     links: "https://www.reaper.design/work/flare",
@@ -41,7 +41,7 @@ export let data = [
   },
     {
     key: 1,
-    id: "akeredolu",
+    id: "dolly",
     title: "",
     text: "This clinic is owned by Dr. Adedolapo Ayediran.she is a Certified Dentist Provider of OJW* (Orthodontic Jaw Wiring for weight control). She is a member of many professional affiliations such as, American Association of Orthodontics, American Dental Association, New Jersey dental association.",
     links: "https://dr-dollydds.com/",

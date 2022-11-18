@@ -61,7 +61,7 @@
   text-align: center;
   background-color: #363944;
 }
-#contact-page #services {
+#contact-page #services-contact {
   color: #737680;
   margin-top: 50px;
 }
@@ -164,15 +164,15 @@
     opacity: 1; /* Firefox */
     font-size: 15px;
   }
-  #contact-page #services {
+  #contact-page #services-contact {
     color: #737680;
     margin-top: 20px;
   }
-  #contact-page #services label {
+  #contact-page #services-contact label {
     text-transform: capitalize;
     font-size: 12px;
   }
-  #contact-page #services .form-label {
+  #contact-page #services-contact .form-label {
     font-size: 14px;
     margin-bottom: 20px;
     margin-top: 20px;

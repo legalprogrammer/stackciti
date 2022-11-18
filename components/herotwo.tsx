@@ -9,14 +9,14 @@ const HeroTwo = () => {
         </h1>
         <Container fluid className="mb-5 service">
           <Row>
-            <Col sm className="cols" >
+            <Col sm className="cols">
               <div data-aos="fade-up">
                 <div>
                   <h2>PRODUCT DESIGN</h2>
                 </div>
                 <div>
                   <p>
-                    We design websites ,apps, and print collateral for some of
+                    We design websites , apps , and print collateral for some of
                     the world’s most recognized brands
                   </p>
                 </div>
@@ -43,9 +43,9 @@ const HeroTwo = () => {
                 </div>
                 <div>
                   <p>
-                    Create your new brand, logo, website, viral social hit, or
+                    Create your new brand , logo , website , viral social hit , or
                     next lit piece. Our creative team will make your campaign or
-                    organization look good while doing good.
+                    organization look good.
                   </p>
                 </div>
               </div>
@@ -61,7 +61,9 @@ const HeroTwo = () => {
                 </div>
                 <div>
                   <p>
-                    {`We develop functional & user friendly mobile apps for IOS & Android that reflects high brand credibility to allow your customers to have all information at their fingertips.`}
+                    {`We develop functional & user friendly 
+                    mobile apps for IOS & Android that reflects 
+                    high brand credibility`}
                   </p>
                 </div>
               </div>
@@ -89,8 +91,9 @@ const HeroTwo = () => {
                 </div>
                 <div>
                   <p>
-                    Web 3 provides processes to reinvent development that brings
-                    innovative solution in different sectors.We develop apps on blockchain networks.
+                    Web 3 provides steps to reinvent development that brings
+                    innovative solution in different sectors.We develop apps on
+                    blockchain
                   </p>
                 </div>
               </div>

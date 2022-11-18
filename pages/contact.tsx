@@ -43,7 +43,7 @@ const Contact = () => {
             <Col sm>
               <h4 data-aos="fade">Contact Us</h4>
               <div className="socials" data-aos="fade">
-                <Link href="mailto:stackcitidesign@gmail.com">
+                <Link href="mailto:contact@stackciti.com">
                   <a>
                     <small>
                       <Image
@@ -54,7 +54,7 @@ const Contact = () => {
                         title="email address"
                       />
                     </small>
-                    &nbsp; &nbsp; &nbsp; stackcitidesign@gmail.com
+                    &nbsp; &nbsp; &nbsp; contact@stackciti.com
                   </a>
                 </Link>
                 <br /> <br />

@@ -140,7 +140,7 @@ export const ContactUs = () => {
           )}
         </Form.Group>
 
-        <Form.Group className="mb-3" controlId="formBasicEmail" id="services">
+        <Form.Group className="mb-3" controlId="formBasicEmail" id="services-contact">
           <Form.Label id="interest">
             IN WHICH SERVICES ARE YOU INTERESTED? (CHECK ALL THAT APPLY)
           </Form.Label>
