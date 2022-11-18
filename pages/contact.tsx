@@ -18,7 +18,7 @@ const Contact = () => {
   return (
     <>
       <Head>
-        <title>Contact us - Stack citi technologies </title>
+        <title>Contact us - Stackciti technologies </title>
         <meta name="description" content="best website agency" />
         <meta
           name="keywords"

@@ -16,7 +16,7 @@ const Works = () => {
   return (
     <>
       <Head>
-        <title> Our works - Stack citi technologies</title>
+        <title> Our works - Stackciti Technologies</title>
         <meta name="description" content="best website agency in Nigeria" />
         <meta
           name="keywords"

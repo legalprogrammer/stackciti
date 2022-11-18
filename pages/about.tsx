@@ -21,7 +21,7 @@ const About = () => {
   return (
     <>
       <Head>
-        <title> About us - Stack citi technologies</title>
+        <title> About us - Stackciti Technologies</title>
         <meta
           name="description"
           content=" We are a digital agency with a taste for outstanding products"
