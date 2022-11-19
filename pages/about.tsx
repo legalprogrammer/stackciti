@@ -14,6 +14,7 @@ import Contact from "../components/contact";
 import Aos from "aos";
 import React from "react";
 import "aos/dist/aos.css";
+import Link from "next/link";
 const About = () => {
   React.useEffect(() => {
     Aos.init({ duration: 800 });

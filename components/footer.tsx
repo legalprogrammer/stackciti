@@ -13,6 +13,16 @@ const Footer = () => {
           <div data-aos="fade">
             <Image src={logo} alt="img" width={120} height={50} />
             <Clock />
+            <br /><br />
+            <h6>Contact our admin if you have any issue </h6>
+            <br />
+            <Link href="mailto:admin@stackciti.com">
+              <a target="_blank" rel="noopener noreferrer" style={{color:"gray"}}>
+                admin@stackciti.com
+              </a>
+            </Link>
+            <br />
+            <br />
           </div>
           <div>
             <h3 data-aos="fade">Pages</h3>
@@ -63,9 +73,7 @@ const Footer = () => {
             <ul>
               <li data-aos="fade">
                 <Link href="https://www.linkedin.com/company/stackciti-tech/">
-                  <a target="_blank" rel="noopener noreferrer">
-                    Linkedin
-                  </a>
+                  Linkedin
                 </Link>
               </li>
               <li data-aos="fade">
