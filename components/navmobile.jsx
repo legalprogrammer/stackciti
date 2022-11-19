@@ -17,7 +17,7 @@ const Mobile = () => {
         expanded={expanded}
        
         style={{
-          backgroundColor: "#131313",
+          backgroundColor: "#000",
           color: "#fff",
           borderBottom: "1px solid #18181b",
           padding: "30px auto",
