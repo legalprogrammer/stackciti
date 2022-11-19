@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Col, Container, Row } from "react-bootstrap";
 
-import logo from "../public/logo1.png";
+import logo from "../public/logo5.png";
 import Clock from "./time";
 
 const Footer = () => {

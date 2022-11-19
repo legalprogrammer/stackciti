@@ -21,7 +21,7 @@ html {
   src: url(../fonts/Poppins-Regular.ttf);
 }
 body {
-  background-color: #131313;
+  background-color: #000;
   color: #fff;
   font-family: nunito;
   overflow-x: hidden;
@@ -277,7 +277,7 @@ body .testimonials .customer-posting {
   align-items: center;
 }
 body .testimonials .article {
-  background-color: #18181b;
+  background-color: #050507;
   padding: 25px 25px;
   border-radius: 15px;
 }

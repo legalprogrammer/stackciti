@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import React from "react";
 import Image from "next/image";
-import logo from "../public/logo1.png";
+import logo from "../public/logo5.png";
 import { Button } from "react-bootstrap";
 
 const Mobile = () => {

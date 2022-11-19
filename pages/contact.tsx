@@ -54,7 +54,7 @@ const Contact = () => {
                         title="email address"
                       />
                     </small>
-                    &nbsp; &nbsp; &nbsp; contact@stackciti.com
+                    &nbsp; &nbsp; contact@stackciti.com
                   </a>
                 </Link>
                 <br /> <br />
