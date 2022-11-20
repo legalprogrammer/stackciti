@@ -13,11 +13,16 @@ const Footer = () => {
           <div data-aos="fade">
             <Image src={logo} alt="img" width={120} height={50} />
             <Clock />
-            <br /><br />
-            <h6>Contact our admin if you have any issue </h6>
+            <br />
+            <br />
+            <h6>Contact our admin for any question </h6>
             <br />
             <Link href="mailto:admin@stackciti.com">
-              <a target="_blank" rel="noopener noreferrer" style={{color:"gray"}}>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: "gray" }}
+              >
                 admin@stackciti.com
               </a>
             </Link>

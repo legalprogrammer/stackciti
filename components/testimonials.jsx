@@ -39,7 +39,7 @@ const Testimonials = () => {
                   </small>
                   <small>
                     {" "}
-                    <Image src={starrIcon} alt="dolu" width={16} height={16} />
+                    <Image src={starIcon} alt="dolu" width={16} height={16} />
                   </small>
                 </div>
                 <div className="text">
@@ -91,7 +91,7 @@ const Testimonials = () => {
                   </small>
                   <small>
                     {" "}
-                    <Image src={starrIcon} alt="dolu" width={16} height={16} />
+                    <Image src={starIcon} alt="dolu" width={16} height={16} />
                   </small>
                 </div>
                 <div className="text">
@@ -143,7 +143,7 @@ const Testimonials = () => {
                   </small>
                   <small>
                     {" "}
-                    <Image src={starrIcon} alt="dolu" width={16} height={16} />
+                    <Image src={starIcon} alt="dolu" width={16} height={16} />
                   </small>
                 </div>
                 <div className="text">
@@ -199,7 +199,7 @@ const Testimonials = () => {
                   </small>
                   <small>
                     {" "}
-                    <Image src={starrIcon} alt="dolu" width={16} height={16} />
+                    <Image src={starIcon} alt="dolu" width={16} height={16} />
                   </small>
                 </div>
                 <div className="text">
@@ -248,11 +248,11 @@ const Testimonials = () => {
                   </small>
                   <small>
                     {" "}
-                    <Image src={starrIcon} alt="dolu" width={16} height={16} />
+                    <Image src={starIcon} alt="dolu" width={16} height={16} />
                   </small>
                   <small>
                     {" "}
-                    <Image src={starrIcon} alt="dolu" width={16} height={16} />
+                    <Image src={starIcon} alt="dolu" width={16} height={16} />
                   </small>
                 </div>
                 <div className="text">
@@ -302,8 +302,7 @@ const Testimonials = () => {
                     <Image src={starIcon} alt="dolu" width={16} height={16} />
                   </small>
                   <small>
-                    {" "}
-                    <Image src={starrIcon} alt="dolu" width={16} height={16} />
+                    <Image src={starIcon} alt="dolu" width={16} height={16} />
                   </small>
                 </div>
                 <div className="text">
