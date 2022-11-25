@@ -27,6 +27,7 @@ const About = () => {
           name="description"
           content=" We are a digital agency with a taste for outstanding products"
         />
+        <link rel="icon" href="/favicon.ico" />
         <meta
           name="keywords"
           content="Stackciti,  We are a digital agency with a taste for outstanding products best chicago web design agency
@@ -157,8 +158,7 @@ web design agency in nigeria
             making your business win through the perfect branding.
           </p>
         </Container>
-   
-    
+
         <Container id="values" className="containers">
           <h2 data-aos="fade-up" className="title-n">
             CORE VALUES

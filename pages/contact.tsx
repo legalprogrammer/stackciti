@@ -21,7 +21,7 @@ const Contact = () => {
       <Head>
         <title>Contact us - Stackciti technologies </title>
         <meta name="description" content="best website agency" />
-        <link rel="icon" href="/public/about2.jpg" />
+        <link rel="icon" href="/favicon.ico" />
         <meta
           name="keywords"
           content="Stackciti technologies,  We are a digital agency with a taste for outstanding products, cleaveland,germany,

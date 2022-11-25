@@ -18,7 +18,7 @@ const Works = () => {
       <Head>
         <title> Our works - Stackciti Technologies</title>
         <meta name="description" content="best website agency in Nigeria" />
-        <link rel="icon" href="/public/about2.jpg" />
+        <link rel="icon" href="/favicon.ico" />
         <meta
           name="keywords"
           content="web design agency denver
