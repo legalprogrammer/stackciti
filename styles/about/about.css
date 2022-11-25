@@ -9,9 +9,9 @@
   margin-bottom: 80px;
 }
 #about-section .containers .title-text {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   line-height: 35px;
-  text-align: center;
+  text-align: justify;
   width: 100%;
 }
 #about-section .containers #words {
@@ -96,9 +96,8 @@
     margin-top: 100px;
   }
   #about-section .containers .title-text {
-    font-size: 1rem;
+    font-size: 0.9rem;
     line-height: 30px;
-    text-align: center;
     margin-left: -10px;
   }
   #about-section .containers #words {

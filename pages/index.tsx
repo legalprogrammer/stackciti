@@ -85,6 +85,7 @@ restaurant web design agency
 web design agency in nigeria"
         />
         <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/public/about2.jpg" />
       </Head>
       <div data-aos="fade-up">
         <Hero />

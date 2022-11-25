@@ -11,6 +11,7 @@ import linkedin from "../public/linkedin1.svg";
 import twIcon from "../public/tw2.png";
 import instaIcon from "../public/insta.png";
 import Image from "next/image";
+
 const Contact = () => {
   React.useEffect(() => {
     Aos.init({ duration: 750 });
@@ -20,6 +21,7 @@ const Contact = () => {
       <Head>
         <title>Contact us - Stackciti technologies </title>
         <meta name="description" content="best website agency" />
+        <link rel="icon" href="/public/about2.jpg" />
         <meta
           name="keywords"
           content="Stackciti technologies,  We are a digital agency with a taste for outstanding products, cleaveland,germany,

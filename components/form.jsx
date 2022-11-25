@@ -5,12 +5,16 @@ import Form from "react-bootstrap/Form";
 import { Col, Container, Row } from "react-bootstrap";
 // import { CurrencyNet } from "currencynet";
 
+
 export const ContactUs = () => {
   const firstRef = useRef(null);
   const mailRef = useRef(null);
   const organRef = useRef(null);
   const telRef = useRef(null);
   const projectRef = useRef(null);
+  const refCaptcha = useRef(); // <- add the useRef hook
+
+
 
   const [firstName, setFirstName] = React.useState("");
   const [telephone, setTelephone] = React.useState("");
@@ -32,16 +36,20 @@ export const ContactUs = () => {
       setError(true);
     } else {
       setError(false);
+
       alert("form submitted successfully");
     }
     e.preventDefault();
+    const token = refCaptcha.current.getValue(); // <- `getValue()` from the instantiated refCaptcha
 
     emailjs
       .sendForm(
         "service_xt31zth",
         "template_7kmnyjc",
         form.current,
-        "M2glm_dxXKwBOIEOJ"
+        "M2glm_dxXKwBOIEOJ",
+        "g-recaptcha-response"
+        
       )
       .then(
         (result) => {
@@ -54,7 +62,7 @@ export const ContactUs = () => {
       );
 
     e.target.reset();
-  };
+  };;
 
   return (
     <Container data-aos="fade">
@@ -140,7 +148,11 @@ export const ContactUs = () => {
           )}
         </Form.Group>
 
-        <Form.Group className="mb-3" controlId="formBasicEmail" id="services-contact">
+        <Form.Group
+          className="mb-3"
+          controlId="formBasicEmail"
+          id="services-contact"
+        >
           <Form.Label id="interest">
             IN WHICH SERVICES ARE YOU INTERESTED? (CHECK ALL THAT APPLY)
           </Form.Label>
@@ -239,9 +251,9 @@ export const ContactUs = () => {
                   name="user_ml"
                 />
               </div>
-            
             </Col>
           </Row>
+          
         </Form.Group>
         {/* <Form.Group>
           <Form.Label>WHAT IS YOUR BUDGET?</Form.Label>

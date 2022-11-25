@@ -126,16 +126,39 @@ web design agency in nigeria
         </Container>
         <Container className="containers">
           <h4 className="title-n" data-aos="fade-up">
-            why Stackciti ?
+            Our Story
           </h4>
           <p className="title-text" data-aos="fade-up">
-            Stackciti is a team of writers, designers, coders, and strategists
-            passionate about making real change. We are a design and technology
-            agency started by Olamide and Chris. We invent products, experiences
-            and environments that stimulate imagination and stir action in your
-            audience.
+            We give Life to your imaginations!
+          </p>
+          <p className="title-text" data-aos="fade-up">
+            Brought together by strings of design, these two friends, Olamide
+            and Chris were able to hone in on their skills perfectly and carve a
+            niche for themselves.
+          </p>
+          <p className="title-text" data-aos="fade-up">
+            But, after all these, they felt there was something missing. There
+            was more they had to do. In the early journey of their career,
+            branding was one thing they had an issue with before they finally
+            found a hack. So, they thought if we could hack this, why not extend
+            the benefit to others?
+          </p>
+          <p className="title-text" data-aos="fade-up">
+            Stackciti is the product of their decision. Stackciti is a branding
+            agency that makes your imaginations come alive. Branding is king in
+            business, if not everything and if your business will at all thrive,
+            it needs good branding.
+          </p>
+          <p className="title-text" data-aos="fade-up">
+            Stackciti has a brilliant team of creative minds on board to
+            transform your imaginations into reality. Stackciti offers a wide
+            range of services from software development services to UI/UX,
+            Blockchain development, SEO and more. Stackciti is committed to
+            making your business win through the perfect branding.
           </p>
         </Container>
+   
+    
         <Container id="values" className="containers">
           <h2 data-aos="fade-up" className="title-n">
             CORE VALUES
