@@ -15,7 +15,7 @@ const Footer = () => {
             <Clock />
             <br />
             <br />
-            <h6>Contact our admin for any question </h6>
+            <h6>Contact our admin for any questions </h6>
             <br />
             <Link href="mailto:admin@stackciti.com">
               <a

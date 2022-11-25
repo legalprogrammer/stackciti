@@ -5,7 +5,6 @@ import estate from "../../public/estate.jpg";
 import akeredolu from "../../public/clem-onojeghuo-HpEDSZukJqk-unsplash.jpg";
 
 export let data = [
-
   {
     key: 4,
     id: "akeredolu",
@@ -17,7 +16,7 @@ export let data = [
     width: 400,
     height: 500,
   },
-   {
+  {
     key: 3,
     id: "beefit",
     title: "Beefit Real Estate Agency",
@@ -39,11 +38,11 @@ export let data = [
     width: 400,
     height: 400,
   },
-    {
+  {
     key: 1,
     id: "dolly",
-    title: "",
-    text: "This clinic is owned by Dr. Adedolapo Ayediran.she is a Certified Dentist Provider of OJW* (Orthodontic Jaw Wiring for weight control). She is a member of many professional affiliations such as, American Association of Orthodontics, American Dental Association, New Jersey dental association.",
+    title: "Dr. Dolly DDS",
+    text: "This clinic is owned by Dr. Adedolapo Ayediran.  She is a Certified Dentist Provider of OJW* (Orthodontic Jaw Wiring for weight control). She is a member of many professional affiliations such as , American Association of Orthodontics , American Dental Association and New Jersey Dental Association.",
     links: "https://dr-dollydds.com/",
     category: "Web development & SEO",
     image: dentist,
