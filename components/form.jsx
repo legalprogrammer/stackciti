@@ -4,6 +4,7 @@ import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import { Col, Container, Row } from "react-bootstrap";
 // import { CurrencyNet } from "currencynet";
+import ReCAPTCHA from "react-google-recaptcha";
 
 
 export const ContactUs = () => {
@@ -12,9 +13,6 @@ export const ContactUs = () => {
   const organRef = useRef(null);
   const telRef = useRef(null);
   const projectRef = useRef(null);
-  const refCaptcha = useRef(); // <- add the useRef hook
-
-
 
   const [firstName, setFirstName] = React.useState("");
   const [telephone, setTelephone] = React.useState("");
@@ -40,7 +38,7 @@ export const ContactUs = () => {
       alert("form submitted successfully");
     }
     e.preventDefault();
-    const token = refCaptcha.current.getValue(); // <- `getValue()` from the instantiated refCaptcha
+
 
     emailjs
       .sendForm(
@@ -253,7 +251,6 @@ export const ContactUs = () => {
               </div>
             </Col>
           </Row>
-          
         </Form.Group>
         {/* <Form.Group>
           <Form.Label>WHAT IS YOUR BUDGET?</Form.Label>
@@ -354,6 +351,10 @@ export const ContactUs = () => {
             </Col>
           </Row>
         </Form.Group> */}
+        <ReCAPTCHA
+          sitekey={"6LeyhCEjAAAAAOXrFhz2nB57hYP72qeSN7G0cUpt"}
+          ref={mailRef}
+        />
         <Button variant="primary" id="sub" type="submit" value="Send">
           Submit
         </Button>
