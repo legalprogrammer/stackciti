@@ -6,7 +6,6 @@ import { Col, Container, Row } from "react-bootstrap";
 // import { CurrencyNet } from "currencynet";
 import ReCAPTCHA from "react-google-recaptcha";
 
-
 export const ContactUs = () => {
   const firstRef = useRef(null);
   const mailRef = useRef(null);
@@ -39,7 +38,6 @@ export const ContactUs = () => {
     }
     e.preventDefault();
 
-
     emailjs
       .sendForm(
         "service_xt31zth",
@@ -47,7 +45,6 @@ export const ContactUs = () => {
         form.current,
         "M2glm_dxXKwBOIEOJ",
         "g-recaptcha-response"
-        
       )
       .then(
         (result) => {
@@ -60,7 +57,7 @@ export const ContactUs = () => {
       );
 
     e.target.reset();
-  };;
+  };
 
   return (
     <Container data-aos="fade">
@@ -355,6 +352,8 @@ export const ContactUs = () => {
           sitekey={"6LeyhCEjAAAAAOXrFhz2nB57hYP72qeSN7G0cUpt"}
           ref={mailRef}
         />
+    
+        <h5>{`Confirm this before submitting`}</h5>
         <Button variant="primary" id="sub" type="submit" value="Send">
           Submit
         </Button>
