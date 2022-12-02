@@ -10,8 +10,9 @@ import ola from "../public/ola.png";
 import chris from "../public/chris.png";
 import piper from "../public/piper.png";
 import Timi from "../public/timi2b.png";
-import ds from "../public/ds.png";
+import ds from "../public/ds1.png";
 import de from "../public/de.png";
+import may from "../public/may.png";
 import about4 from "../public/excel.svg";
 import femaleavatar from "../public/female.svg";
 import maleavatar from "../public/male.svg";
@@ -198,29 +199,41 @@ web design agency in nigeria
             We give Life to your imaginations!
           </p>
           <p className="title-text" data-aos="fade-up">
+            It takes one who has experienced a challenge to understand how to
+            solve the challenge.
+          </p>
+          <p className="title-text" data-aos="fade-up">
             Brought together by strings of design, these two friends, Olamide
-            and Chris were able to hone in on their skills perfectly and carve a
-            niche for themselves.
+            and Chris, were able to hone in on their skills perfectly and carve
+            a niche for themselves.
           </p>
           <p className="title-text" data-aos="fade-up">
-            But, after all these, they felt there was something missing. There
-            was more they had to do. In the early journey of their career,
-            branding was one thing they had an issue with before they finally
-            found a hack. So, they thought if we could hack this, why not extend
-            the benefit to others?
+            But, after all these, there was still a void_ They only had skills
+            but had not branded the face behind the skills. This phase took them
+            on a journey into the unseen mysteries of branding.
           </p>
           <p className="title-text" data-aos="fade-up">
-            Stackciti is the product of their decision. Stackciti is a branding
-            agency that makes your imaginations come alive. Branding is king in
-            business, if not everything and if your business will at all thrive,
-            it needs good branding.
+            They were lost in this fog for months before they were finally able
+            to hack it. On the cold journey, they discovered mistakes of brand
+            owners and the disadvantages of poor branding. And, they decided to
+            create a channel to help businesses build a good brand image.
+            Stackciti is the product of their decision.
           </p>
           <p className="title-text" data-aos="fade-up">
-            Stackciti has a brilliant team of creative minds on board to
+            Stackciti is a branding agency that translates your ideas into
+            reality. There are many businesses but there are fewer brands and
+            only good brands survive the storms of the market. Branding is king
+            in business, if not everything and if your business will at all
+            thrive, it needs good branding.
+          </p>
+          <p className="title-text" data-aos="fade-up">
+            At stackciti, we have a brilliant team of creative minds on board to
             transform your imaginations into reality. Stackciti offers a wide
-            range of services from software development services to UI/UX,
-            Blockchain development, SEO and more. Stackciti is committed to
-            making your business win through the perfect branding.
+            range of services from soft development services such as Web
+            development and web designs for your website to UI/UX design to give
+            your target audience the perfect user experience, Blockchain
+            development, SEO services and more. Stackciti is committed to making
+            your business win through the perfect branding.
           </p>
         </Container>
 
@@ -299,22 +312,22 @@ web design agency in nigeria
             <Col sm>
               <Image src={ola} alt="image" width={100} height={100} />
               <h1>Sotunde Olamide</h1>
-              <h4>Founder</h4>
+              <h4>Founder,CEO</h4>
             </Col>
             <Col sm>
               <Image src={maleavatar} alt="image" width={100} height={100} />
               <h1>Chris</h1>
-              <h4>Co-Founder</h4>
+              <h4>Co-Founder & CTO </h4>
             </Col>
             <Col sm>
-              <Image src={chris} alt="image" width={100} height={100} />
-              <h1>Chris Luhrs</h1>
-              <h4>Product design lead</h4>
+              <Image src={femaleavatar} alt="image" width={100} height={100} />
+              <h1>Otun Rhodiat</h1>
+              <h4>Product manager</h4>
             </Col>
             <Col sm>
-              <Image src={ds} alt="image" width={100} height={100} />
-              <h1>Daniel Orobode</h1>
-              <h4>Project manager</h4>
+              <Image src={de} alt="image" width={100} height={100} />
+              <h1>Agu Godsdelight</h1>
+              <h4>Chief marketing officer</h4>
             </Col>
           </Row>
           <Row>
@@ -324,22 +337,32 @@ web design agency in nigeria
               <h4>Blockchain developer</h4>
             </Col>
             <Col sm>
-              <Image src={Timi} alt="image" width={100} height={100} />
-              <h1>Timi Oyelumade</h1>
-              <h4>Graphic designer</h4>
+              <Image src={chris} alt="image" width={100} height={100} />
+              <h1>Chris Luhrs</h1>
+              <h4>Product design lead</h4>
             </Col>
             <Col sm>
-              <Image src={femaleavatar} alt="image" width={100} height={100} />
+              <Image src={may} alt="image" width={100} height={100} />
               <h1>Adewale Mayowa</h1>
               <h4>Product designer</h4>
             </Col>
             <Col sm>
-              <Image src={de} alt="image" width={100} height={100} />
-              <h1>Agu Godsdelight</h1>
-              <h4>Head of marketing</h4>
+              <Image src={Timi} alt="image" width={100} height={100} />
+              <h1>Timi Oyelumade</h1>
+              <h4>Graphic designer</h4>
             </Col>
           </Row>
+          <Row>
+         
+            <Col sm>
+              <Image src={ds} alt="image" width={100} height={100} />
+              <h1>Daniel Orobode</h1>
+              <h4>Sales manager</h4>
+            </Col>
+   
+          </Row>
         </Container>
+      
         <Contact />
       </section>
     </>
