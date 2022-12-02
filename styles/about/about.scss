@@ -1,6 +1,32 @@
 #about-section {
-  .containers {
+  .containerss {
     margin: auto 100px;
+    margin-bottom: 20px;
+    h2 {
+      font-size: 2.5rem;
+      margin-bottom: 70px;
+    }
+    .col {
+      margin: 20px;
+    }
+    .title-n {
+      text-align: center;
+      font-size: 3rem;
+      text-transform: capitalize;
+      margin-bottom: 80px;
+    }
+    .title-textt {
+      font-size: 1.1rem;
+      line-height: 30px;
+      line-height: 35px;
+      width: 100%;
+    }
+    #words {
+      font-size: 2rem;
+    }
+  }
+  .containers {
+    margin: 150px 100px;
     margin-bottom: 170px;
     .title-n {
       text-align: center;
@@ -11,6 +37,12 @@
     .title-text {
       font-size: 1.1rem;
       line-height: 35px;
+      text-align: justify;
+      width: 100%;
+    }
+    .title-textt {
+      font-size: 1.1rem;
+      line-height: 40px;
       text-align: justify;
       width: 100%;
     }
@@ -83,10 +115,59 @@
   .about-img {
     opacity: 0.6;
   }
+  .team {
+    h1 {
+      font-size: 1rem;
+    }
+    h4 {
+      font-size: 0.8rem;
+    }
+    h3 {
+      font-size: 1.9rem;
+      text-align: center;
+      margin-bottom: 20px;
+      margin-top: 100px;
+    }
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 100px;
+      text-align: center;
+    }
+    .row {
+      margin-bottom: 40px;
+      text-align: center;
+    }
+  }
 }
 @media screen and (max-width: 991px) {
-  
   #about-section {
+    .containerss {
+      margin: auto 20px;
+      margin-bottom: 20px;
+      h2 {
+        font-size: 1.5rem;
+        margin-top: 100px;
+        margin-bottom: 50px;
+      }
+      .col {
+        margin: 20px;
+      }
+      .title-n {
+        text-align: center;
+        font-size: 3rem;
+        text-transform: capitalize;
+        margin-bottom: 80px;
+      }
+      .title-textt {
+        font-size: 0.9rem;
+        line-height: 30px;
+        line-height: 35px;
+        width: 100%;
+      }
+      #words {
+        font-size: 2rem;
+      }
+    }
     .containers {
       margin: auto 20px;
       margin-bottom: 150px;
@@ -100,7 +181,7 @@
       .title-text {
         font-size: 0.9rem;
         line-height: 30px;
-        
+
         margin-left: -10px;
       }
       #words {
@@ -126,12 +207,12 @@
         width: 100%;
         line-height: 1.6;
       }
-      button{
+      button {
         opacity: 1;
         color: #737680;
       }
     }
-    
+
     #values {
       margin-top: 100px;
       h2 {
@@ -159,6 +240,34 @@
     }
     .containers {
       margin: auto 25px;
+    }
+  }
+  .team {
+    h1 {
+      font-size: 1rem;
+      margin-top: 20px;
+      font-weight: 700;
+    }
+    h4 {
+      font-size: 0.8rem;
+      margin-bottom: 50px;
+      color:#a3a3a3;
+    }
+    h3 {
+      font-size: 2.5rem;
+      text-align: center;
+      margin-bottom: 20px;
+      margin-top: 100px;
+    }
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 100px;
+      text-align: center;
+      margin-left: 20px;
+    }
+    .row {
+      margin-bottom: 40px;
+      text-align: center;
     }
   }
 }

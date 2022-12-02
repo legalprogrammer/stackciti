@@ -6,9 +6,15 @@ import laptopwork from "../public/laptopwork.svg";
 import about2 from "../public/craft.svg";
 import about3 from "../public/eager.svg";
 import about5 from "../public/joy.svg";
+import ola from "../public/ola.png";
+import chris from "../public/chris.png";
+import piper from "../public/piper.png";
+import Timi from "../public/timi2b.png";
+import ds from "../public/ds.png";
+import de from "../public/de.png";
 import about4 from "../public/excel.svg";
-// import femaleavatar from "../public/female.svg";
-// import maleavatar from "../public/male.svg";
+import femaleavatar from "../public/female.svg";
+import maleavatar from "../public/male.svg";
 import Testimonials from "../components/testimonials";
 import Contact from "../components/contact";
 import Aos from "aos";
@@ -28,6 +34,7 @@ const About = () => {
           content=" We are a digital agency with a taste for outstanding products"
         />
         <link rel="icon" href="/favicon.ico" />
+
         <meta
           name="keywords"
           content="Stackciti,  We are a digital agency with a taste for outstanding products best chicago web design agency
@@ -122,6 +129,64 @@ web design agency in nigeria
             </Col>
             <Col sm>
               <Image src={laptopwork} alt="image" width={500} height={350} />
+            </Col>
+          </Row>
+        </Container>
+        <Container className="containerss">
+          <h2>Professional Metaverse Solutions Tailored for your Brand.</h2>
+        </Container>
+
+        <Container className="containerss">
+          <Row>
+            <Col sm>
+              <p className="title-textt" data-aos="fade-up">
+                Stackciti Technologies is a creative full service Metaverse
+                Solution provider, specializing in helping E-Commerce and Web
+                3.0 brands with entering the Metaverse.
+              </p>
+            </Col>
+            <Col sm>
+              <p className="title-textt" data-aos="fade-up">
+                Bringing E-Commerce and Blockchain together, Stackciti
+                Technologies is at the forefront of emerging technologies and
+                the future of online shopping in the Metaverse.
+              </p>
+            </Col>
+          </Row>
+        </Container>
+        <Container className="containerss">
+          <Row>
+            <Col sm>
+              <p className="title-textt" data-aos="fade-up">
+                Think of us like a Plug-and-Play technical department, ready to
+                join your business and help you succeed, with our expertise.
+              </p>
+            </Col>
+            <Col sm>
+              <p className="title-textt" data-aos="fade-up">
+                Companies we have worked with range from startups with that
+                spark that can turn into a billion dollar empire, all the way to
+                Fortune 500 companies.
+              </p>
+            </Col>
+          </Row>
+        </Container>
+        <Container className="containerss">
+          <Row>
+            <Col sm>
+              <p className="title-textt" data-aos="fade-up">
+                Stackciti Technologies has already been able to work with over
+                20 companies from all over the world. We then take everything we
+                have learned from working with these brands and create platforms
+                that make it simple for anyone to enter the world of Web 3.0.
+              </p>
+            </Col>
+            <Col sm>
+              <p className="title-textt" data-aos="fade-up">
+                Ready to enter the Metaverse? We are a full team of Developers,
+                Designers, Marketers and Content Producers ready to help your
+                brand deploy in a Metaverse Solution with ease.
+              </p>
             </Col>
           </Row>
         </Container>
@@ -223,7 +288,7 @@ web design agency in nigeria
           </Row>
         </Container>
         <br />
-        {/* <Container>
+        <Container className="team">
           <h3>Meet the team</h3>
           <p>
             Our team is jam packed with creative, smart and bubbly people. We
@@ -232,42 +297,49 @@ web design agency in nigeria
           </p>
           <Row>
             <Col sm>
-              <Image src={maleavatar} alt="image" width={100} height={100} />
-              <h1>Olamide</h1>
+              <Image src={ola} alt="image" width={100} height={100} />
+              <h1>Sotunde Olamide</h1>
               <h4>Founder</h4>
             </Col>
             <Col sm>
-              <Image src={maleavatar} alt="image" width={300} height={300} />
-              <h1>chris</h1>
+              <Image src={maleavatar} alt="image" width={100} height={100} />
+              <h1>Chris</h1>
+              <h4>Co-Founder</h4>
             </Col>
             <Col sm>
-              <Image src={maleavatar} alt="image" width={300} height={300} />
-              <h1>Shedrack</h1>
+              <Image src={chris} alt="image" width={100} height={100} />
+              <h1>Chris Luhrs</h1>
+              <h4>Product design lead</h4>
             </Col>
             <Col sm>
-              <Image src={maleavatar} alt="image" width={300} height={300} />
-              <h1>Eniola</h1>
+              <Image src={ds} alt="image" width={100} height={100} />
+              <h1>Daniel Orobode</h1>
+              <h4>Project manager</h4>
             </Col>
           </Row>
           <Row>
             <Col sm>
-              <Image src={maleavatar} alt="image" width={300} height={300} />
-              <h1>Arnold</h1>
+              <Image src={piper} alt="image" width={100} height={100} />
+              <h1>Sophie piper</h1>
+              <h4>Blockchain developer</h4>
             </Col>
             <Col sm>
-              <Image src={maleavatar} alt="image" width={300} height={300} />
-              <h1>Daniel</h1>
+              <Image src={Timi} alt="image" width={100} height={100} />
+              <h1>Timi Oyelumade</h1>
+              <h4>Graphic designer</h4>
             </Col>
             <Col sm>
-              <Image src={maleavatar} alt="image" width={300} height={300} />
-              <h1>Precious</h1>
+              <Image src={femaleavatar} alt="image" width={100} height={100} />
+              <h1>Adewale Mayowa</h1>
+              <h4>Product designer</h4>
             </Col>
             <Col sm>
-              <Image src={femaleavatar} alt="image" width={300} height={300} />
-              <h1>Ifeoluwa</h1>
+              <Image src={de} alt="image" width={100} height={100} />
+              <h1>Agu Godsdelight</h1>
+              <h4>Head of marketing</h4>
             </Col>
           </Row>
-        </Container> */}
+        </Container>
         <Contact />
       </section>
     </>

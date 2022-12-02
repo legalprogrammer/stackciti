@@ -1,5 +1,31 @@
-#about-section .containers {
+#about-section .containerss {
   margin: auto 100px;
+  margin-bottom: 20px;
+}
+#about-section .containerss h2 {
+  font-size: 2.5rem;
+  margin-bottom: 70px;
+}
+#about-section .containerss .col {
+  margin: 20px;
+}
+#about-section .containerss .title-n {
+  text-align: center;
+  font-size: 3rem;
+  text-transform: capitalize;
+  margin-bottom: 80px;
+}
+#about-section .containerss .title-textt {
+  font-size: 1.1rem;
+  line-height: 30px;
+  line-height: 35px;
+  width: 100%;
+}
+#about-section .containerss #words {
+  font-size: 2rem;
+}
+#about-section .containers {
+  margin: 150px 100px;
   margin-bottom: 170px;
 }
 #about-section .containers .title-n {
@@ -11,6 +37,12 @@
 #about-section .containers .title-text {
   font-size: 1.1rem;
   line-height: 35px;
+  text-align: justify;
+  width: 100%;
+}
+#about-section .containers .title-textt {
+  font-size: 1.1rem;
+  line-height: 40px;
   text-align: justify;
   width: 100%;
 }
@@ -82,8 +114,56 @@
 #about-section .about-img {
   opacity: 0.6;
 }
+#about-section .team h1 {
+  font-size: 1rem;
+}
+#about-section .team h4 {
+  font-size: 0.8rem;
+}
+#about-section .team h3 {
+  font-size: 1.9rem;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 100px;
+}
+#about-section .team p {
+  font-size: 1.1rem;
+  margin-bottom: 100px;
+  text-align: center;
+}
+#about-section .team .row {
+  margin-bottom: 40px;
+  text-align: center;
+}
 
 @media screen and (max-width: 991px) {
+  #about-section .containerss {
+    margin: auto 20px;
+    margin-bottom: 20px;
+  }
+  #about-section .containerss h2 {
+    font-size: 1.5rem;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+  #about-section .containerss .col {
+    margin: 20px;
+  }
+  #about-section .containerss .title-n {
+    text-align: center;
+    font-size: 3rem;
+    text-transform: capitalize;
+    margin-bottom: 80px;
+  }
+  #about-section .containerss .title-textt {
+    font-size: 0.9rem;
+    line-height: 30px;
+    line-height: 35px;
+    width: 100%;
+  }
+  #about-section .containerss #words {
+    font-size: 2rem;
+  }
   #about-section .containers {
     margin: auto 20px;
     margin-bottom: 150px;
@@ -153,5 +233,31 @@
   }
   #about-section .containers {
     margin: auto 25px;
+  }
+  .team h1 {
+    font-size: 1rem;
+    margin-top: 20px;
+    font-weight: 700;
+  }
+  .team h4 {
+    font-size: 0.8rem;
+    margin-bottom: 50px;
+    color: #a3a3a3;
+  }
+  .team h3 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 100px;
+  }
+  .team p {
+    font-size: 1.1rem;
+    margin-bottom: 100px;
+    text-align: center;
+    margin-left: 20px;
+  }
+  .team .row {
+    margin-bottom: 40px;
+    text-align: center;
   }
 }/*# sourceMappingURL=about.css.map */
