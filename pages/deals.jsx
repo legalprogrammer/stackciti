@@ -7,12 +7,12 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import React from "react";
 import { Dealform } from "../components/dealform.jsx";
-import  Timer  from "../components/timerender";
+import Timer from "../components/timerender";
 
 const Deals = () => {
-    React.useEffect(() => {
-      Aos.init({ duration: 800 });
-    }, []);
+  React.useEffect(() => {
+    Aos.init({ duration: 800 });
+  }, []);
   return (
     <>
       <Head>
@@ -110,7 +110,7 @@ web design agency in nigeria
                     />
                   </h1>
                   <div>
-                     <h4 className="offer">Offer ends January 2,2023 </h4>
+                    <h4 className="offer">Offer ends January 2,2023 </h4>
                   </div>
                   <div>
                     <a href="#options">
@@ -127,9 +127,10 @@ web design agency in nigeria
                     loop
                     muted
                     style={{ width: "700px", height: "640px" }}
-                  >
-                    <source src="https://public.db.files.1drv.com/y4mTI3EO_S86agK4AXFR1LqK1woVrnzypX4zvoqwzHvUkNCAltxwzdpRMxGh3XrhaV85RyfYNjnqgOhBBimc35pku2FW_0-qvR4AdYEZ5LSf7gWaInOt7F6Kxritwbst5OuKrP0Mb5r70IQ7TMDuNgVtEQv3cr7Eu2AXsAnlBkGGxnykWZW5rS1a-fqR1jbfEQGqr3nvLofi-Uq1BV5EOb7WHsdc_HRmOlFQ8tBtCMtRs4?" />
-                  </video>
+                    src={
+                      "https://trigienit.com/wp-content/uploads/2022/11/final-sales.mp4"
+                    }
+                  ></video>
                 </div>
               </div>
             </div>
