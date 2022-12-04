@@ -10,18 +10,19 @@ import ola from "../public/ola.png";
 import chris from "../public/chris.png";
 import piper from "../public/piper.png";
 import Timi from "../public/timi2b.png";
+import mars from "../public/mars.png";
+import rhod from "../public/rhod.png";
 import ds from "../public/ds1.png";
 import de from "../public/de.png";
 import may from "../public/may.png";
 import about4 from "../public/excel.svg";
 import femaleavatar from "../public/female.svg";
 import maleavatar from "../public/male.svg";
-import Testimonials from "../components/testimonials";
 import Contact from "../components/contact";
 import Aos from "aos";
 import React from "react";
 import "aos/dist/aos.css";
-import Link from "next/link";
+
 const About = () => {
   React.useEffect(() => {
     Aos.init({ duration: 800 });
@@ -315,12 +316,12 @@ web design agency in nigeria
               <h4>Founder,CEO</h4>
             </Col>
             <Col sm>
-              <Image src={maleavatar} alt="image" width={100} height={100} />
-              <h1>Chris</h1>
+              <Image src={mars} alt="image" width={100} height={100} />
+              <h1>Chris Mars</h1>
               <h4>Co-Founder & CTO </h4>
             </Col>
             <Col sm>
-              <Image src={femaleavatar} alt="image" width={100} height={100} />
+              <Image src={rhod} alt="image" width={100} height={100} />
               <h1>Otun Rhodiat</h1>
               <h4>Product manager</h4>
             </Col>
@@ -359,7 +360,6 @@ web design agency in nigeria
               <h1>Daniel Orobode</h1>
               <h4>Sales manager</h4>
             </Col>
-   
           </Row>
         </Container>
       

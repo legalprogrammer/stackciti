@@ -1,0 +1,479 @@
+.deals-page {
+  .deals {
+    .box {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding-bottom: 100px;
+    }
+    .top {
+      margin-top: 80px;
+      padding: 20px 40px;
+      margin-left: -70px;
+      h2 {
+        font-size: 3rem;
+        width: 100%;
+        margin-bottom: 30px;
+        font-weight: 900;
+      }
+      p {
+        font-size: 16px;
+        margin-bottom: 30px;
+      }
+      h1 {
+        font-size: 2.5rem;
+      }
+    }
+    .offer{
+        color: gold;
+        font-size: 1rem;
+        margin-top: 50px;
+    }
+    .video {
+      margin-top: -10px;
+      margin-left: 50px;
+      position: absolute;
+    }
+    button {
+      border: 1px solid #fff;
+      background-color: #fff;
+      color: #131313;
+      font-weight: 400;
+      margin-top: 50px;
+      padding: 10px 50px;
+      outline: none;
+      &:hover {
+        background-color: #fff;
+        color: #131313;
+      }
+    }
+  }
+  .options {
+    margin-top: 100px;
+
+    h6 {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 100px;
+      text-transform: capitalize;
+    }
+    .thumb {
+      background-color: #131313;
+      padding: 50px 20px;
+      border: 1px solid #fff;
+      border-radius: 20px;
+      margin: 20px;
+      h2 {
+        font-size: 17px;
+        text-align: center;
+        text-transform: capitalize;
+        margin-bottom: 50px;
+      }
+      h3 {
+        font-size: 15px;
+        text-align: center;
+        margin-bottom: 50px;
+      }
+      .off {
+        text-align: center;
+        button {
+          padding: 10px;
+          font-size: 10px;
+          background-color: #131313;
+          border: 1px solid #fff;
+        }
+        span {
+          opacity: 0.6;
+        }
+      }
+      .price {
+        text-align: center;
+        margin-top: 50px;
+        font-size: 2.5rem;
+        margin-bottom: 50px;
+      }
+      .btns {
+        text-align: center;
+        button {
+          border: 1px solid #fff;
+          background-color: #fff;
+          color: #131313;
+          font-weight: 400;
+          padding: 10px 50px;
+          outline: none;
+          margin-bottom: 60px;
+          &:hover {
+            background-color: #fff;
+            color: #131313;
+          }
+        }
+      }
+      .gifts {
+        h5 {
+          font-size: 22px;
+          margin-bottom: 30px;
+          margin-top: 20px;
+        }
+        .thumbnail {
+          margin-top: 10px;
+        }
+        span {
+          font-weight: 900;
+        }
+        small {
+          text-transform: capitalize;
+          letter-spacing: 1px;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+  .deal-form {
+    margin-top: 250px;
+    margin-left: 400px;
+    h2 {
+      margin-left: 100px;
+      font-weight: 700;
+      margin-bottom: 40px;
+    }
+    p {
+      font-size: 15px;
+      width: 60%;
+      margin-bottom: 40px;
+    }
+    h3 {
+      margin-top: 100px;
+      margin-bottom: 150px;
+      font-size: 5rem;
+      font-weight: 500;
+      width: 100%;
+    }
+    .same {
+      font-size: 13px;
+      border-bottom: 1px solid #737680;
+      border-top: 1px solid transparent;
+      border-left: 1px solid transparent;
+      border-right: 1px solid transparent;
+      color: white;
+      outline: none;
+      background: #363944;
+      margin-bottom: 30px;
+      border-radius: 0px;
+      width: 60%;
+      &:focus {
+        background-color: none;
+        outline: transparent;
+        border-radius: 0px;
+        border: 1px solid transparent;
+      }
+    }
+    .form-check-input:checked {
+      background-color: #4a4d57;
+      border-color: #4a4d57;
+    }
+    .form-control::placeholder {
+      /* Chrome, Firefox, Opera, Safari 10.1+ */
+      color: rgb(180, 180, 180);
+      opacity: 1; /* Firefox */
+    }
+
+    .project {
+      padding-bottom: 100px;
+    }
+    h6 {
+      font-size: 12px;
+      color: coral;
+      margin-top: -30px;
+      margin-bottom: 20px;
+    }
+    h5 {
+      font-size: 14px;
+      margin-top: 5px;
+      color: coral;
+    }
+    .radios {
+      margin-top: 7px;
+    }
+    #sub {
+      width: 61%;
+      margin-top: 30px;
+      border: none;
+      text-align: center;
+      background-color: #363944;
+    }
+    #services-contact {
+      color: #737680;
+      margin-top: 50px;
+    }
+    label {
+      font-size: 13px;
+      color: rgb(180, 180, 180);
+    }
+    h4 {
+      font-size: 30px;
+      margin-bottom: 60px;
+      text-align: center;
+    }
+    .socials {
+      text-align: center;
+    }
+    #tel {
+      margin-left: -60px;
+    }
+    span {
+      margin-left: 60px;
+      cursor: pointer;
+    }
+    .icons {
+      margin-left: -100px;
+      margin-top: 20px;
+    }
+    a {
+      text-decoration: none;
+      color: #737680;
+      font-size: 20px;
+      align-self: center;
+      small {
+        margin-top: 30px;
+      }
+    }
+
+    .prices {
+      padding: 10px 3px;
+      width: 85%;
+      margin-top: 10px;
+      background-color: transparent;
+      color: #737680;
+      border: 1px solid #737680;
+      &:focus {
+        background-color: #737680;
+        color: #363944;
+      }
+    }
+  }
+}
+@media screen and (max-width: 991px) {
+  .deals-page {
+    .deals {
+      .box {
+        display: block;
+      }
+      .top {
+        margin-top: 50px;
+        padding: 20px;
+        margin-left: 0px;
+        width: 100%;
+        h2 {
+          font-size: 2.5rem;
+          width: 100%;
+          margin-bottom: 30px;
+          font-weight: 900;
+        }
+        p {
+          font-size: 16px;
+          margin-bottom: 30px;
+        }
+        h1 {
+          font-size: 2.5rem;
+        }
+      }
+      .video {
+        margin-top: -10px;
+        margin-left: 0px;
+        position: absolute;
+        display: none;
+      }
+      button {
+        border: 1px solid #fff;
+        background-color: #fff;
+        color: #131313;
+        font-weight: 400;
+        margin-top: 100px;
+        padding: 10px 50px;
+        outline: none;
+        &:hover {
+          background-color: #fff;
+          color: #131313;
+        }
+      }
+    }
+    .options {
+      margin-top: 100px;
+
+      h6 {
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 100px;
+        text-transform: capitalize;
+      }
+      .thumb {
+        background-color: #131313;
+        padding: 50px 20px;
+        border: 1px solid #fff;
+        border-radius: 20px;
+        margin: 20px;
+        h2 {
+          font-size: 17px;
+          text-align: center;
+          text-transform: capitalize;
+          margin-bottom: 50px;
+        }
+        h3 {
+          font-size: 15px;
+          text-align: center;
+          margin-bottom: 50px;
+        }
+        .off {
+          text-align: center;
+          button {
+            padding: 10px;
+            font-size: 10px;
+            background-color: #131313;
+            border: 1px solid #fff;
+          }
+          span {
+            opacity: 0.6;
+          }
+        }
+        .price {
+          text-align: center;
+          margin-top: 50px;
+          font-size: 2.5rem;
+          margin-bottom: 50px;
+        }
+        .btns {
+          text-align: center;
+          button {
+            border: 1px solid #fff;
+            background-color: #fff;
+            color: #131313;
+            font-weight: 400;
+            padding: 10px 50px;
+            outline: none;
+            margin-bottom: 60px;
+            &:hover {
+              background-color: #fff;
+              color: #131313;
+            }
+          }
+        }
+        .gifts {
+          h5 {
+            font-size: 22px;
+            margin-bottom: 30px;
+            margin-top: 20px;
+          }
+          .thumbnail {
+            margin-top: 10px;
+          }
+          span {
+            font-weight: 900;
+          }
+          small {
+            text-transform: capitalize;
+            letter-spacing: 1px;
+            font-size: 12px;
+          }
+        }
+      }
+    }
+    .deal-form {
+      margin-top: 150px;
+      margin-left: 0px;
+      padding-top: 40px;
+      h2 {
+        margin-left: 0px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 40px;
+      }
+      p {
+        font-size: 15px;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+      }
+        h3 {
+      margin-top: 100px;
+      margin-bottom: 100px;
+      font-size: 2rem;
+    }
+    #tel {
+      margin-left: -10px;
+    }
+    span {
+      margin-left: 60px;
+      cursor: pointer;
+    }
+    .same{
+        width: 100%;
+    }
+    .icons {
+      margin-left: -70px;
+      margin-top: 0px;
+      margin-bottom: 50px;
+    }
+    .name {
+      margin-top: 60px;
+    }
+    h6 {
+      font-size: 12px;
+      color: coral;
+      margin-top: -30px;
+      margin-bottom: 20px;
+    }
+    .radios {
+      margin-top: 7px;
+    }
+    #sub {
+      background-color: #363944;
+      width: 100%;
+    }
+      .form-control::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(180, 180, 180);
+    opacity: 1; /* Firefox */
+    font-size: 15px;
+  }
+    #services-contact {
+      color: #737680;
+      margin-top: 20px;
+      label {
+        text-transform: capitalize;
+        font-size: 12px;
+      }
+      .form-label{
+        font-size: 14px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+      }
+    }
+    label {
+      font-size: 10px;
+    }
+    h4 {
+      font-size: 30px;
+      margin-bottom: 60px;
+    }
+    a {
+      text-decoration: none;
+      color: #737680;
+      font-size: 18px;
+      color: #d9dbe0;
+    }
+
+    .prices {
+      padding: 10px 3px;
+      width: 100%;
+      font-size: 14px;
+      margin-top: 0px;
+      background-color: transparent;
+      color: #737680;
+      border: 1px solid #737680;
+      &:focus {
+        background-color: #737680;
+        color: #363944;
+      }
+    }
+    }
+  }
+}

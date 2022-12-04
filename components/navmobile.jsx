@@ -15,7 +15,6 @@ const Mobile = () => {
         expand="lg"
         variant="dark"
         expanded={expanded}
-       
         style={{
           backgroundColor: "#000",
           color: "#fff",
@@ -45,24 +44,24 @@ const Mobile = () => {
                   Home
                 </span>
               </Link>
+              <Link href="/about">
+                <span className="nav-link" onClick={() => setExpanded(false)}>
+                  About
+                </span>
+              </Link>
               <Link href="/works">
                 <span className="nav-link" onClick={() => setExpanded(false)}>
                   Latest works
                 </span>
               </Link>
-              {/* <Link href="/careers">
+               <Link href="/deals">
                 <span className="nav-link" onClick={() => setExpanded(false)}>
-                  Careers
+                 Hot Deals
                 </span>
-              </Link> */}
+              </Link> 
               <Link href="/contact">
                 <span className="nav-link" onClick={() => setExpanded(false)}>
                   Contact
-                </span>
-              </Link>
-              <Link href="/about">
-                <span className="nav-link" onClick={() => setExpanded(false)}>
-                  About
                 </span>
               </Link>
               <Link href="/contact">

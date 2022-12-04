@@ -82,7 +82,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li data-aos="fade">
-                <Link href="https://www.instagram.com/lamiide_">
+                <Link href="https://www.instagram.com/stackciti">
                   <a target="_blank" rel="noopener noreferrer">
                     Instagram
                   </a>

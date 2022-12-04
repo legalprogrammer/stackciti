@@ -24,3 +24,4 @@ const Layout = ({ children }: Layoutprops) => {
 };
 
 export default Layout;
+
