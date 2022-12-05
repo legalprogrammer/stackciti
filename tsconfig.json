@@ -25,6 +25,6 @@
     "components/navmobile.jsx",
     "pages/contact.tsx",
     "components/form.jsx"
-, "components/time.jsx", "pages/about.jsx", "pages/deals.jsx"  ],
+, "components/time.jsx", "pages/about.jsx", "pages/deals.jsx", "pages/blog.jsx"  ],
   "exclude": ["node_modules"]
 }

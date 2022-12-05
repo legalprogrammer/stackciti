@@ -33,24 +33,24 @@ const NavBar = () => {
                   Home
                 </span>
               </Link>
+              <Link href="/about">
+                <span id="hover-nav" className="nav-link mx-4">
+                  About
+                </span>
+              </Link>
               <Link href="/works">
-                <span id="hover-nav" className="nav-link mx-5">
+                <span id="hover-nav" className="nav-link mx-4">
                   Latest works
                 </span>
               </Link>
-              {/* <Link href="/careers">
+              <Link href="/deals">
                 <span id="hover-nav" className="nav-link mx-4">
-                  Careers
+                  Deals
                 </span>
-              </Link> */}
+              </Link>
               <Link href="/contact">
                 <span id="hover-nav" className="nav-link mx-5">
                   Contact
-                </span>
-              </Link>
-              <Link href="/about">
-                <span id="hover-nav" className="nav-link mx-5">
-                  About
                 </span>
               </Link>
             </Nav>

@@ -7,7 +7,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import React from "react";
 import { Dealform } from "../components/dealform.jsx";
-import Timer from "../components/timerender";
+
 
 const Deals = () => {
   React.useEffect(() => {
@@ -373,7 +373,7 @@ web design agency in nigeria
 
                       <div className="thumbnail">
                         <span>. &nbsp;&nbsp;&nbsp;</span>
-                        <small>Facebook automation setup to include:</small>
+                        <small>Automation tools such as facebook </small>
                       </div>
                       <div className="thumbnail">
                         <span>. &nbsp;&nbsp;&nbsp;</span>
