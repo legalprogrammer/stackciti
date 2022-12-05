@@ -283,6 +283,8 @@ export const Dealform = () => {
           sitekey={"6LeyhCEjAAAAAOXrFhz2nB57hYP72qeSN7G0cUpt"}
           ref={mailRef}
         />
+        
+        <h5>{`Confirm this before submitting`}</h5>
         <Button variant="primary" id="sub" type="submit" value="Send">
           Submit
         </Button>
