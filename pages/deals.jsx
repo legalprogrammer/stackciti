@@ -104,7 +104,7 @@ web design agency in nigeria
                   <h1>
                     <CurrencyNet
                       buildCurrency="USD"
-                      value={204}
+                      value={202}
                       isfloat={false}
                       shortenCurrency={true}
                     />
@@ -171,7 +171,7 @@ web design agency in nigeria
                   <div className="price">
                     <CurrencyNet
                       buildCurrency="USD"
-                      value={204}
+                      value={202}
                       isfloat={false}
                       shortenCurrency={true}
                     />
@@ -353,7 +353,7 @@ web design agency in nigeria
                   <div className="price">
                     <CurrencyNet
                       buildCurrency="USD"
-                      value={497}
+                      value={495}
                       isfloat={false}
                       shortenCurrency={true}
                     />
