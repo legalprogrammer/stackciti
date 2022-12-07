@@ -7,7 +7,7 @@ npm run dev
 yarn dev
 ```
 
-This is digital agency website that offers 
+This is digital agency website that offers a range software development services
 Open the website [stackciti.com](http://www.stackiciti.com/)
 
 
