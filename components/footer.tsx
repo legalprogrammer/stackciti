@@ -78,7 +78,9 @@ const Footer = () => {
             <ul>
               <li data-aos="fade">
                 <Link href="https://www.linkedin.com/company/stackciti-tech/">
-                  Linkedin
+                  <a target="_blank" rel="noopener noreferrer">
+                    Linkedin
+                  </a>
                 </Link>
               </li>
               <li data-aos="fade">
