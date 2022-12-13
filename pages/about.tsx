@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import { Col, Container, Row } from "react-bootstrap";
+import { Button, Col, Container, Row } from "react-bootstrap";
 import about1 from "../public/about5.jpg";
 import laptopwork from "../public/laptopwork.svg";
 import about2 from "../public/craft.svg";
@@ -13,6 +13,7 @@ import Timi from "../public/timi2b.png";
 import mars from "../public/mars.png";
 import rhod from "../public/rhod.png";
 import ds from "../public/ds1.png";
+import sec from "../public/sec.webp";
 import de from "../public/de.png";
 import may from "../public/may.png";
 import about4 from "../public/excel.svg";
@@ -22,6 +23,8 @@ import Contact from "../components/contact";
 import Aos from "aos";
 import React from "react";
 import "aos/dist/aos.css";
+import Testimonials from "../components/testimonials";
+import Link from "next/link";
 
 const About = () => {
   React.useEffect(() => {
@@ -738,110 +741,58 @@ how many web design companies in the uk
             </Col>
           </Row>
         </Container>
-        <Container className="containerss">
-          <h2>Professional Metaverse Solutions Tailored for your Brand.</h2>
-        </Container>
-
-        <Container className="containerss">
-          <Row>
-            <Col sm>
-              <p className="title-textt" data-aos="fade-up">
-                Stackciti Technologies is a creative full service Metaverse
-                Solution provider, specializing in helping E-Commerce and Web
-                3.0 brands with entering the Metaverse.
-              </p>
-            </Col>
-            <Col sm>
-              <p className="title-textt" data-aos="fade-up">
-                Bringing E-Commerce and Blockchain together, Stackciti
-                Technologies is at the forefront of emerging technologies and
-                the future of online shopping in the Metaverse.
-              </p>
-            </Col>
-          </Row>
-        </Container>
-        <Container className="containerss">
-          <Row>
-            <Col sm>
-              <p className="title-textt" data-aos="fade-up">
-                Think of us like a Plug-and-Play technical department, ready to
-                join your business and help you succeed, with our expertise.
-              </p>
-            </Col>
-            <Col sm>
-              <p className="title-textt" data-aos="fade-up">
-                Companies we have worked with range from startups with that
-                spark that can turn into a billion dollar empire, all the way to
-                Fortune 500 companies.
-              </p>
-            </Col>
-          </Row>
-        </Container>
-        <Container className="containerss">
-          <Row>
-            <Col sm>
-              <p className="title-textt" data-aos="fade-up">
-                Stackciti Technologies has already been able to work with over
-                20 companies from all over the world. We then take everything we
-                have learned from working with these brands and create platforms
-                that make it simple for anyone to enter the world of Web 3.0.
-              </p>
-            </Col>
-            <Col sm>
-              <p className="title-textt" data-aos="fade-up">
-                Ready to enter the Metaverse? We are a full team of Developers,
-                Designers, Marketers and Content Producers ready to help your
-                brand deploy in a Metaverse Solution with ease.
-              </p>
-            </Col>
-          </Row>
-        </Container>
         <Container className="containers">
           <h4 className="title-n" data-aos="fade-up">
             Our Story
           </h4>
           <p className="title-text" data-aos="fade-up">
-            We give Life to your imaginations!
+            <strong>Stackciti.com</strong> is a web design and app development
+            agency that helps small businesses and individuals get in the face
+            of their target audience through the creation of websites that are
+            not only visually appealing and user-friendly, but also secure with
+            the latest cyber security protocols.
           </p>
           <p className="title-text" data-aos="fade-up">
-            It takes one who has experienced a challenge to understand how to
-            solve the challenge.
+            <strong>STATISTICS</strong> have shown that an{" "}
+            <strong>
+              {" "}
+              average of 30,000 websites are hacked each day, and this leaves
+              these businesses destabilized as important files are lost. Also,
+              43% of cyber attacks target small businesses and only 5% of their
+              folders and files{" "}
+            </strong>{" "}
+            are properly protected which spells doom to the {`brands'`} growth.
           </p>
           <p className="title-text" data-aos="fade-up">
-            Brought together by strings of design, these two friends, Olamide
-            and Chris, were able to hone in on their skills perfectly and carve
-            a niche for themselves.
+            <Image src={sec} alt="image" width={1000} height={600} />
           </p>
           <p className="title-text" data-aos="fade-up">
-            But, after all these, there was still a void_ They only had skills
-            but had not branded the face behind the skills. This phase took them
-            on a journey into the unseen mysteries of branding.
+            <strong>THIS IS WHY</strong> at Stackciti.com, beyond creating a
+            website for your business, we care about the performance of your
+            websites so that it {`doesn't`} come under attack.{" "}
+            <strong>
+              We make sure your website is able to withstand any cyber threat so
+              that you can focus on growing your business and connecting with
+              your customers.
+            </strong>
           </p>
           <p className="title-text" data-aos="fade-up">
-            They were lost in this fog for months before they were finally able
-            to hack it. On the cold journey, they discovered mistakes of brand
-            owners and the disadvantages of poor branding. And, they decided to
-            create a channel to help businesses build a good brand image.
-            Stackciti is the product of their decision.
+            Our goal is to see your brand succeed; so we go the extra mile to
+            ensure your website is secure just as it is beautiful. We have a
+            brilliant team of experienced and creative web developers and
+            designers that deliver innovations to advance your business. Our
+            priority is to deliver a safe and secure website that you can trust.
           </p>
           <p className="title-text" data-aos="fade-up">
-            Stackciti is a branding agency that translates your ideas into
-            reality. There are many businesses but there are fewer brands and
-            only good brands survive the storms of the market. Branding is king
-            in business, if not everything and if your business will at all
-            thrive, it needs good branding.
+            We look forward to helping you create a perfect digital presence.
           </p>
           <p className="title-text" data-aos="fade-up">
-            At stackciti, we have a brilliant team of creative minds on board to
-            transform your imaginations into reality. Stackciti offers a wide
-            range of services from soft development services such as Web
-            development and web designs for your website to UI/UX design to give
-            your target audience the perfect user experience, Blockchain
-            development, SEO services and more. Stackciti is committed to making
-            your business win through the perfect branding.
+            <Link href="/contact">
+              <Button>GET IN TOUCH TODAY</Button>
+            </Link>
           </p>
         </Container>
-
+        <Testimonials />
         <Container id="values" className="containers">
           <h2 data-aos="fade-up" className="title-n">
             CORE VALUES
@@ -931,7 +882,7 @@ how many web design companies in the uk
             </Col>
             <Col sm>
               <Image src={de} alt="image" width={100} height={100} />
-              <h1>Agu Godsdelight</h1>
+              <h1>Bamidele Imisioluwa</h1>
               <h4>Chief marketing officer</h4>
             </Col>
           </Row>

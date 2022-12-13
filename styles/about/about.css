@@ -35,10 +35,26 @@
   margin-bottom: 80px;
 }
 #about-section .containers .title-text {
-  font-size: 1.1rem;
+  font-size: 1rem;
   line-height: 35px;
   text-align: justify;
   width: 100%;
+  letter-spacing: 0.8px;
+}
+#about-section .containers .title-text strong {
+  font-weight: 600;
+}
+#about-section .containers .title-text button {
+  background: #fff;
+  border: 1px solid #fff;
+  font-weight: 700;
+  letter-spacing: 0.7px;
+  margin-top: 50px;
+  color: #131313;
+}
+#about-section .containers .title-text button:hover {
+  background-color: #fff;
+  color: #131313;
 }
 #about-section .containers .title-textt {
   font-size: 1.1rem;

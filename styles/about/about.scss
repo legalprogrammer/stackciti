@@ -35,10 +35,26 @@
       margin-bottom: 80px;
     }
     .title-text {
-      font-size: 1.1rem;
+      font-size: 1rem;
       line-height: 35px;
       text-align: justify;
       width: 100%;
+      letter-spacing: 0.8px;
+      strong {
+        font-weight: 600;
+      }
+      button {
+        background: #fff;
+        border: 1px solid #fff;
+        font-weight: 700;
+        letter-spacing: 0.7px;
+        margin-top: 50px;
+        color: #131313;
+        &:hover {
+          background-color: #fff;
+          color: #131313;
+        }
+      }
     }
     .title-textt {
       font-size: 1.1rem;
@@ -251,7 +267,7 @@
     h4 {
       font-size: 0.8rem;
       margin-bottom: 50px;
-      color:#a3a3a3;
+      color: #a3a3a3;
     }
     h3 {
       font-size: 2.5rem;
