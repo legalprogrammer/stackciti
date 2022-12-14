@@ -16,6 +16,7 @@ const Deals = () => {
   return (
     <>
       <Head>
+        
         <title>Flash sales - Stackciti Technologies</title>
         <meta
           name="description"

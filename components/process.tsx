@@ -16,7 +16,7 @@ const Process = () => {
                 </div>
                 <div>
                   <p>
-                    we transform your Perception into an excellent website &
+                    We transform your Perception into an excellent website &
                     application.Simple and effective process for 100%
                     satisfaction
                   </p>

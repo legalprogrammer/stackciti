@@ -33,6 +33,7 @@ const About = () => {
   return (
     <>
       <Head>
+        
         <title> About us - Stackciti Technologies</title>
         <meta
           name="description"
@@ -706,7 +707,6 @@ how much to charge for a wordpress website 2021
 which web design company uk
 how much to charge for web design uk
 how many web design companies in the uk
-
 "
         />
         <link rel="icon" href="/favicon.ico" />
@@ -718,7 +718,7 @@ how many web design companies in the uk
               <button id="fade-btn">About</button>
               <div>
                 <h2>
-                  We are a digital agency with a taste for outstanding products
+                  We are a digital agency with a taste for outstanding products.
                 </h2>
               </div>
             </Col>
@@ -743,7 +743,7 @@ how many web design companies in the uk
         </Container>
         <Container className="containers">
           <h4 className="title-n" data-aos="fade-up">
-            Our Story
+            Our Story.
           </h4>
           <p className="title-text" data-aos="fade-up">
             <strong>Stackciti.com</strong> is a web design and app development

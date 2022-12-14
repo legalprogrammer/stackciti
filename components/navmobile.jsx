@@ -56,7 +56,7 @@ const Mobile = () => {
               </Link>
                <Link href="/deals">
                 <span className="nav-link" onClick={() => setExpanded(false)}>
-                 Hot Deals
+                 Deals
                 </span>
               </Link> 
               <Link href="/contact">
